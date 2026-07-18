@@ -155,3 +155,4 @@ grep -rEi "JWT_SECRET|KAMIS_KEY|APIHUB_KEY|..." dist/   # 시크릿 노출 0건
 - 실행 계획: `.omc/plans/plan-agri-supply-demand-app.md`
 - 리브랜딩/UX 보완 + 기후·병충해 알림: `.omc/plans/plan-rebrand-ux-fixes-climate-pest-alerts.md`
 # GoruGoruNong
+# GoruGoruNong
