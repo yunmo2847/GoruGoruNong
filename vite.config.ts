@@ -4,6 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base : 'https://yunmo2847.github.io/GoruGoruNong/',
   server: {
     // /api 요청을 Express 백엔드(5174)로 프록시. 쿠키 세션 유지를 위해 changeOrigin.
     proxy: {
