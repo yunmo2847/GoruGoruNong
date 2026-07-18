@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"cd \\\"C:/Users/pokey/OneDrive/바탕 화면/에리카\\\" && echo \\\"===package.json===\\\" && cat package.json && echo \\\"===git log===\\\" && git log --oneline -15 2>/dev/null && echo \\\"===git status===\\\" && g...",
+  "error": "Exit code 128\n===package.json===\n{\n  \"name\": \"-\",\n  \"private\": true,\n  \"version\": \"0.0.0\",\n  \"type\": \"module\",\n  \"scripts\": {\n    \"dev\": \"vite\",\n    \"dev:server\": \"tsx watch server/index.ts\",\n    \"dev:all\": \"concurrently -k -n web,api -c green,cyan \\\"npm:dev\\\" \\\"npm:dev:server\\\"\",\n    \"seed\": \"tsx scripts/seed-baseline.ts\",\n    \"seed:climate\": \"tsx scripts/seed-climate.ts\",\n    \"snapshot:refresh\": \"npm run seed -- --offline && npm run seed:climate -- --offline\",\n    \"snapshot:refresh:live\": \"npm...",
+  "timestamp": "2026-07-18T22:03:16.776Z",
+  "retry_count": 1
+}

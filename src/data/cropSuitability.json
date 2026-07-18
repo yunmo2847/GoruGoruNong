@@ -1,0 +1,28 @@
+{
+  "_note": "작물 마스터. group=부류, difficulty=재배난이도(1쉬움~5어려움), climateTolerance=기후내성(0~1), basePriceKrwPerKg=평년 도매가 근사, cycleMonths=재배기간. 추천엔진 전환용이성/수익성/기후적합도 계산에 사용.",
+  "crops": [
+    { "name": "배추", "group": "엽채류", "difficulty": 2, "climateTolerance": 0.55, "basePriceKrwPerKg": 780, "cycleMonths": 3 },
+    { "name": "상추", "group": "엽채류", "difficulty": 1, "climateTolerance": 0.6, "basePriceKrwPerKg": 2100, "cycleMonths": 2 },
+    { "name": "시금치", "group": "엽채류", "difficulty": 2, "climateTolerance": 0.5, "basePriceKrwPerKg": 2600, "cycleMonths": 2 },
+    { "name": "양배추", "group": "엽채류", "difficulty": 2, "climateTolerance": 0.62, "basePriceKrwPerKg": 950, "cycleMonths": 3 },
+    { "name": "무", "group": "근채류", "difficulty": 2, "climateTolerance": 0.6, "basePriceKrwPerKg": 640, "cycleMonths": 3 },
+    { "name": "당근", "group": "근채류", "difficulty": 3, "climateTolerance": 0.58, "basePriceKrwPerKg": 1350, "cycleMonths": 4 },
+    { "name": "감자", "group": "근채류", "difficulty": 2, "climateTolerance": 0.65, "basePriceKrwPerKg": 1600, "cycleMonths": 4 },
+    { "name": "고구마", "group": "근채류", "difficulty": 2, "climateTolerance": 0.7, "basePriceKrwPerKg": 2400, "cycleMonths": 5 },
+    { "name": "양파", "group": "양념채소", "difficulty": 3, "climateTolerance": 0.5, "basePriceKrwPerKg": 900, "cycleMonths": 7 },
+    { "name": "마늘", "group": "양념채소", "difficulty": 3, "climateTolerance": 0.52, "basePriceKrwPerKg": 4800, "cycleMonths": 8 },
+    { "name": "대파", "group": "양념채소", "difficulty": 2, "climateTolerance": 0.6, "basePriceKrwPerKg": 1700, "cycleMonths": 4 },
+    { "name": "고추", "group": "양념채소", "difficulty": 4, "climateTolerance": 0.45, "basePriceKrwPerKg": 9200, "cycleMonths": 5 },
+    { "name": "생강", "group": "양념채소", "difficulty": 4, "climateTolerance": 0.4, "basePriceKrwPerKg": 5200, "cycleMonths": 6 },
+    { "name": "토마토", "group": "과채류", "difficulty": 3, "climateTolerance": 0.5, "basePriceKrwPerKg": 3100, "cycleMonths": 3 },
+    { "name": "오이", "group": "과채류", "difficulty": 3, "climateTolerance": 0.48, "basePriceKrwPerKg": 2200, "cycleMonths": 3 },
+    { "name": "호박", "group": "과채류", "difficulty": 2, "climateTolerance": 0.66, "basePriceKrwPerKg": 1500, "cycleMonths": 3 },
+    { "name": "딸기", "group": "과채류", "difficulty": 4, "climateTolerance": 0.42, "basePriceKrwPerKg": 8800, "cycleMonths": 5 },
+    { "name": "사과", "group": "과수", "difficulty": 4, "climateTolerance": 0.55, "basePriceKrwPerKg": 3400, "cycleMonths": 12 },
+    { "name": "배", "group": "과수", "difficulty": 4, "climateTolerance": 0.53, "basePriceKrwPerKg": 3000, "cycleMonths": 12 },
+    { "name": "감귤", "group": "과수", "difficulty": 3, "climateTolerance": 0.6, "basePriceKrwPerKg": 2500, "cycleMonths": 12 },
+    { "name": "포도", "group": "과수", "difficulty": 4, "climateTolerance": 0.5, "basePriceKrwPerKg": 5600, "cycleMonths": 12 },
+    { "name": "콩", "group": "곡물", "difficulty": 2, "climateTolerance": 0.68, "basePriceKrwPerKg": 5400, "cycleMonths": 5 },
+    { "name": "쌀", "group": "곡물", "difficulty": 3, "climateTolerance": 0.72, "basePriceKrwPerKg": 2900, "cycleMonths": 6 }
+  ]
+}

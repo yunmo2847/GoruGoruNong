@@ -1,0 +1,137 @@
+{
+  "title": "리브랜딩·UX 보완(A트랙) + 기후·병충해 위험도 알림(B트랙)",
+  "source": ".omc/plans/plan-rebrand-ux-fixes-climate-pest-alerts.md",
+  "created_at": "2026-07-19T00:00:00.000Z",
+  "stories": [
+    {
+      "id": "A-001",
+      "title": "리브랜딩: 수급밸런스 -> 고루고루농",
+      "priority": 1,
+      "passes": true,
+      "acceptanceCriteria": [
+        "index.html:7, README.md:1, src/App.tsx:59, src/index.css:1(주석), src/pages/Login.tsx:16-17의 '수급밸런스'가 전부 '고루고루농'으로 교체됨",
+        "grep -r '수급밸런스' src/ index.html README.md 결과가 0건(빌드산출물 dist/ 제외)"
+      ]
+    },
+    {
+      "id": "A-002",
+      "title": "내정보 배경사진 교체",
+      "priority": 2,
+      "passes": true,
+      "acceptanceCriteria": [
+        "src/pages/Profile.tsx의 farmImg import가 '../assets/farm.png'를 가리킴",
+        "src/pages/Login.tsx는 hero.png 그대로 유지(변경 대상 아님)"
+      ]
+    },
+    {
+      "id": "A-003",
+      "title": "ha->평 단위 변환 유틸 + 표시 전환",
+      "priority": 3,
+      "passes": true,
+      "acceptanceCriteria": [
+        "src/lib/units.ts에 haToPyeong/pyeongToHa 존재(1ha=3025평(정확)), units.test.ts 왕복 변환 검증 통과",
+        "src/components/PlanForm.tsx 재배면적 라벨이 '평'으로 표시되고 입력값을 pyeongToHa로 변환해 기존과 동일하게 ha로 서버 전송",
+        "src/ui.tsx에 fmtPyeong 추가, src/pages/Profile.tsx/src/components/NationwideComparison.tsx/src/components/RiskAlertPanel.tsx의 면적 표시가 평 단위로 렌더링",
+        "서버/riskFormula/nationwideComparison/demoScenario 회귀 테스트는 무변경으로 계속 통과(ha 내부 계산 불변)"
+      ]
+    },
+    {
+      "id": "A-004",
+      "title": "UI 짤림 수정 (비교 테이블/헤더 이미지/카드)",
+      "priority": 4,
+      "passes": true,
+      "acceptanceCriteria": [
+        "src/components/NationwideComparison.tsx 테이블이 390px 프레임에서 가로 스크롤 힌트 또는 컬럼 축소로 개선됨",
+        "src/pages/Profile.tsx, src/pages/Login.tsx 헤더 이미지 영역에서 타이틀 텍스트가 겹치거나 잘리지 않도록 높이/패딩/마진 조정",
+        "src/components/RecommendationCard.tsx, src/pages/Dashboard.tsx 차트/카드 콘텐츠가 카드 경계를 넘지 않음",
+        "dev 서버 구동 후 390x844 프레임 스크린샷으로 확인"
+      ]
+    },
+    {
+      "id": "A-005",
+      "title": "A트랙 통합 검증",
+      "priority": 5,
+      "passes": true,
+      "acceptanceCriteria": [
+        "npm run build 성공(tsc+vite)",
+        "npm run test 전체 통과(기존 25개 + 신규 units.test.ts)",
+        "npm run lint(oxlint) exit 0"
+      ]
+    },
+    {
+      "id": "B-001",
+      "title": "4개 외부 API 어댑터(APIHUB/AMIS/ARCCAS/NCPMS)",
+      "priority": 6,
+      "passes": true,
+      "acceptanceCriteria": [
+        "scripts/integrations/{apihub,amis,arccas,ncpms}.ts 4개 파일 존재",
+        "각 어댑터는 키 미설정/호출 실패 시 null 반환(throw 금지) - 기존 kosis.ts/atDataGo.ts/mafra.ts와 동일한 방어적 파싱 패턴",
+        "가짜 키로 각 어댑터를 실제 엔드포인트에 호출해도 크래시 없이 null 반환함을 확인"
+      ]
+    },
+    {
+      "id": "B-002",
+      "title": "정규화 레이어(지역/시간/작물 코드 통합)",
+      "priority": 7,
+      "passes": true,
+      "acceptanceCriteria": [
+        "src/lib/normalization.ts 존재: 지역코드(관측지점코드/NCPMS지역코드 -> sigungu.json code), 작물코드(NCPMS/RDA코드 -> cropSuitability.json 작물명), 시간단위(실시간/일별/장기 -> 일별 통일) 매핑 함수",
+        "normalization.test.ts로 코드 매핑 정확성 및 매핑 실패시 해당 레코드 스킵(전체 실패 아님) 검증"
+      ]
+    },
+    {
+      "id": "B-003",
+      "title": "스코어 모듈(S_weather/S_pest/S_longterm) + 가중합",
+      "priority": 8,
+      "passes": true,
+      "acceptanceCriteria": [
+        "src/lib/climateAlert.ts에 computeWeatherScore, computePestScore, computeLongtermScore, combineAlertScore(가중치 단일 config 객체 ALERT_WEIGHTS) 존재",
+        "생육단계(초기/생육기/수확기 3단계, plant/harvest 월 경과율로 계산)별 가중치 배수 적용",
+        "climateAlert.test.ts로 스코어 단조성 및 결정적 정렬/계산 검증"
+      ]
+    },
+    {
+      "id": "B-004",
+      "title": "임계값 알림 분기 + API 라우트",
+      "priority": 9,
+      "passes": true,
+      "acceptanceCriteria": [
+        "GET /api/climate-alert/:region/:crop 라우트 등록(server/routes/climate-alert.ts + server/index.ts)",
+        "응답에 종합 위험도, tier(정상/주의/경보), 알림분기(즉시알림/방제안내/대체작물추천트리거 여부) 포함",
+        "3개 분기가 각각 다른 결정적 입력 조건에서 발동함을 단위테스트로 검증",
+        "키 없이 호출해도 기존 climateRisk.ts 결정적 mock으로 폴백되어 정상 응답(크래시 없음)"
+      ]
+    },
+    {
+      "id": "B-005",
+      "title": "ARCCAS 스냅샷 분리 + TTL 캐시",
+      "priority": 10,
+      "passes": true,
+      "acceptanceCriteria": [
+        "ARCCAS(장기 기후 시나리오)는 scripts/seed-baseline.ts 확장 또는 scripts/seed-climate.ts로 src/data/climate-longterm.json 동결 생성",
+        "APIHUB/AMIS/NCPMS(실시간·주기 갱신)는 서버 메모리 TTL 캐시(Map<key,{data,expiresAt}>) 적용 - 날씨 1시간, 병해충 6~12시간"
+      ]
+    },
+    {
+      "id": "B-006",
+      "title": "알림 분기 UI 연동",
+      "priority": 11,
+      "passes": true,
+      "acceptanceCriteria": [
+        "RiskAlertPanel.tsx 옆(또는 확장)에 기후·병충해 경보 카드 추가",
+        "즉시알림 배지, 방제안내 텍스트, 대체작물 추천 트리거가 기존 recommendation.ts와 연결되어 렌더링"
+      ]
+    },
+    {
+      "id": "B-007",
+      "title": "B트랙 통합 검증 + 보안/문서화",
+      "priority": 12,
+      "passes": true,
+      "acceptanceCriteria": [
+        "npm run build 성공, npm run test 전체 통과(A트랙+B트랙 신규 테스트 포함)",
+        "dist/ 빌드 산출물에 4개 신규 API 키 문자열 노출 0건(보안 그렙 확장)",
+        "README에 4개 신규 키 발급처 + integration-codes.json 확장 필드 안내 추가"
+      ]
+    }
+  ]
+}

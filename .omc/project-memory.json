@@ -1,0 +1,410 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1784358447806,
+  "projectRoot": "C:\\Users\\pokey\\OneDrive\\바탕 화면\\에리카",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "tsconfig.json"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "react",
+        "version": "19.2.7",
+        "category": "frontend"
+      },
+      {
+        "name": "react-dom",
+        "version": "19.2.7",
+        "category": "frontend"
+      },
+      {
+        "name": "vite",
+        "version": "8.1.1",
+        "category": "build"
+      }
+    ],
+    "packageManager": "npm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "cd \"C:/Users/pokey/OneDrive/바탕 화면/에리카\" && echo \"=== normal map flow (healthy) ===\" && timeout 80 node scratch-repro2.mjs 2>&1 | grep -E \"clicked|CRASH|alive\" | head -8 && echo \"=== typecheck + build ===\" && npx tsc -b 2>&1 | tail -5 && npx vite build 2>&1 | tail -6",
+    "testCommand": "cd \"C:/Users/pokey/OneDrive/바탕 화면/에리카\" && echo \"=== full test suite ===\" && npx vitest run 2>&1 | tail -12 && echo \"=== typecheck (app) ===\" && npx tsc -b 2>&1 | tail -15 && echo \"tsc-done\"",
+    "lintCommand": "npm run lint",
+    "devCommand": "npm run dev",
+    "scripts": {
+      "dev": "vite",
+      "build": "tsc -b && vite build",
+      "lint": "oxlint",
+      "preview": "vite preview"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "public",
+      "src"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "public": {
+      "path": "public",
+      "purpose": "Public files",
+      "fileCount": 2,
+      "lastAccessed": 1784358447753,
+      "keyFiles": [
+        "favicon.svg",
+        "icons.svg"
+      ]
+    },
+    "src": {
+      "path": "src",
+      "purpose": "Source code",
+      "fileCount": 4,
+      "lastAccessed": 1784358447756,
+      "keyFiles": [
+        "App.css",
+        "App.tsx",
+        "index.css",
+        "main.tsx"
+      ]
+    },
+    "src\\assets": {
+      "path": "src\\assets",
+      "purpose": "Static assets",
+      "fileCount": 3,
+      "lastAccessed": 1784358447764,
+      "keyFiles": [
+        "hero.png",
+        "react.svg",
+        "vite.svg"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "README.md",
+      "accessCount": 16,
+      "lastAccessed": 1784400614110,
+      "type": "file"
+    },
+    {
+      "path": "progress.txt",
+      "accessCount": 14,
+      "lastAccessed": 1784403285789,
+      "type": "file"
+    },
+    {
+      "path": "src\\api.ts",
+      "accessCount": 10,
+      "lastAccessed": 1784412127408,
+      "type": "file"
+    },
+    {
+      "path": "src\\App.tsx",
+      "accessCount": 10,
+      "lastAccessed": 1784412195583,
+      "type": "file"
+    },
+    {
+      "path": "package.json",
+      "accessCount": 9,
+      "lastAccessed": 1784408986233,
+      "type": "file"
+    },
+    {
+      "path": "src\\ui.tsx",
+      "accessCount": 9,
+      "lastAccessed": 1784412128480,
+      "type": "file"
+    },
+    {
+      "path": "src\\pages\\Login.tsx",
+      "accessCount": 8,
+      "lastAccessed": 1784401684275,
+      "type": "file"
+    },
+    {
+      "path": "server\\routes\\plans.ts",
+      "accessCount": 8,
+      "lastAccessed": 1784412274095,
+      "type": "file"
+    },
+    {
+      "path": "server\\store\\plans.ts",
+      "accessCount": 8,
+      "lastAccessed": 1784412274420,
+      "type": "file"
+    },
+    {
+      "path": "scripts\\seed-baseline.ts",
+      "accessCount": 8,
+      "lastAccessed": 1784413042913,
+      "type": "file"
+    },
+    {
+      "path": "server\\data.ts",
+      "accessCount": 7,
+      "lastAccessed": 1784412157892,
+      "type": "file"
+    },
+    {
+      "path": "index.html",
+      "accessCount": 6,
+      "lastAccessed": 1784408932066,
+      "type": "file"
+    },
+    {
+      "path": "server\\index.ts",
+      "accessCount": 6,
+      "lastAccessed": 1784412212606,
+      "type": "file"
+    },
+    {
+      "path": "",
+      "accessCount": 5,
+      "lastAccessed": 1784365109574,
+      "type": "directory"
+    },
+    {
+      "path": ".env",
+      "accessCount": 5,
+      "lastAccessed": 1784394700698,
+      "type": "file"
+    },
+    {
+      "path": "vite.config.ts",
+      "accessCount": 5,
+      "lastAccessed": 1784412213416,
+      "type": "file"
+    },
+    {
+      "path": ".env.example",
+      "accessCount": 4,
+      "lastAccessed": 1784399035601,
+      "type": "file"
+    },
+    {
+      "path": "src\\lib\\climateRisk.ts",
+      "accessCount": 4,
+      "lastAccessed": 1784400858412,
+      "type": "file"
+    },
+    {
+      "path": "src\\lib\\recommendation.ts",
+      "accessCount": 3,
+      "lastAccessed": 1784381636507,
+      "type": "file"
+    },
+    {
+      "path": "src\\index.css",
+      "accessCount": 3,
+      "lastAccessed": 1784397565735,
+      "type": "file"
+    },
+    {
+      "path": "src\\main.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1784409009520,
+      "type": "file"
+    },
+    {
+      "path": "server\\routes\\recommendation.ts",
+      "accessCount": 3,
+      "lastAccessed": 1784412213160,
+      "type": "file"
+    },
+    {
+      "path": "src\\lib\\riskFormula.ts",
+      "accessCount": 3,
+      "lastAccessed": 1784412419070,
+      "type": "file"
+    },
+    {
+      "path": "tsconfig.app.json",
+      "accessCount": 2,
+      "lastAccessed": 1784380393806,
+      "type": "file"
+    },
+    {
+      "path": "server\\routes\\auth.ts",
+      "accessCount": 2,
+      "lastAccessed": 1784381625139,
+      "type": "file"
+    },
+    {
+      "path": "server\\store\\users.ts",
+      "accessCount": 2,
+      "lastAccessed": 1784381626141,
+      "type": "file"
+    },
+    {
+      "path": "server\\middleware\\requireAuth.ts",
+      "accessCount": 2,
+      "lastAccessed": 1784381626728,
+      "type": "file"
+    },
+    {
+      "path": "server\\auth-token.ts",
+      "accessCount": 2,
+      "lastAccessed": 1784381627249,
+      "type": "file"
+    },
+    {
+      "path": "server\\env.ts",
+      "accessCount": 2,
+      "lastAccessed": 1784381627720,
+      "type": "file"
+    },
+    {
+      "path": "src\\lib\\demoScenario.test.ts",
+      "accessCount": 2,
+      "lastAccessed": 1784381635941,
+      "type": "file"
+    },
+    {
+      "path": "src\\lib\\nationwideComparison.ts",
+      "accessCount": 2,
+      "lastAccessed": 1784381637349,
+      "type": "file"
+    },
+    {
+      "path": "server\\routes\\comparison.ts",
+      "accessCount": 2,
+      "lastAccessed": 1784381638070,
+      "type": "file"
+    },
+    {
+      "path": "src\\lib\\recommendation.test.ts",
+      "accessCount": 2,
+      "lastAccessed": 1784381677746,
+      "type": "file"
+    },
+    {
+      "path": "src\\lib\\riskFormula.test.ts",
+      "accessCount": 2,
+      "lastAccessed": 1784381677807,
+      "type": "file"
+    },
+    {
+      "path": "src\\lib\\deterministic.ts",
+      "accessCount": 2,
+      "lastAccessed": 1784381863720,
+      "type": "file"
+    },
+    {
+      "path": "src\\data\\cropSuitability.json",
+      "accessCount": 2,
+      "lastAccessed": 1784396879122,
+      "type": "file"
+    },
+    {
+      "path": "src\\auth\\AuthContext.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1784409009833,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\LoginForm.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1784409050133,
+      "type": "file"
+    },
+    {
+      "path": "src\\App.css",
+      "accessCount": 1,
+      "lastAccessed": 1784365107702,
+      "type": "file"
+    },
+    {
+      "path": ".claude\\settings.local.json",
+      "accessCount": 1,
+      "lastAccessed": 1784365108365,
+      "type": "file"
+    },
+    {
+      "path": "src\\data.ts",
+      "accessCount": 1,
+      "lastAccessed": 1784379487990,
+      "type": "file"
+    },
+    {
+      "path": "tsconfig.node.json",
+      "accessCount": 1,
+      "lastAccessed": 1784379490767,
+      "type": "file"
+    },
+    {
+      "path": "src\\data\\sigungu.json",
+      "accessCount": 1,
+      "lastAccessed": 1784379799100,
+      "type": "file"
+    },
+    {
+      "path": "src\\lib\\nationwideComparison.test.ts",
+      "accessCount": 1,
+      "lastAccessed": 1784380084551,
+      "type": "file"
+    },
+    {
+      "path": "server\\routes\\risk.ts",
+      "accessCount": 1,
+      "lastAccessed": 1784380294709,
+      "type": "file"
+    },
+    {
+      "path": "server\\routes\\market.ts",
+      "accessCount": 1,
+      "lastAccessed": 1784380307995,
+      "type": "file"
+    },
+    {
+      "path": "server\\routes\\climate.ts",
+      "accessCount": 1,
+      "lastAccessed": 1784380315399,
+      "type": "file"
+    },
+    {
+      "path": "tsconfig.json",
+      "accessCount": 1,
+      "lastAccessed": 1784380382110,
+      "type": "file"
+    },
+    {
+      "path": "tsconfig.server.json",
+      "accessCount": 1,
+      "lastAccessed": 1784380398990,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\SignupForm.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1784380836738,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

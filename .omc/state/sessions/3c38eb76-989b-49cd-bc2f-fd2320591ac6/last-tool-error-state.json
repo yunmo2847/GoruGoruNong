@@ -1,0 +1,7 @@
+{
+  "tool_name": "ScheduleWakeup",
+  "tool_input_preview": "{\"delaySeconds\":60,\"reason\":\"npm install이 아직 실행 중이라 완료 여부를 확인하러 잠시 후 다시 확인\"}",
+  "error": "`prompt` is required when `stop` is not true.",
+  "timestamp": "2026-07-18T06:13:50.913Z",
+  "retry_count": 1
+}

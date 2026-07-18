@@ -1,0 +1,370 @@
+{
+  "generatedAt": "2026-07-18T21:04:10.024Z",
+  "mode": "offline",
+  "source": "공식 파일 기반 오프라인 스냅샷 · 가격 KAMIS 2026년 · 재배면적/생산량 KOSIS 2025년",
+  "providers": {
+    "baseline": "KOSIS-XLS (2025, 미수록 품목은 기준값 보완)",
+    "price": "KAMIS-XLS (2026)",
+    "production": "KOSIS-XLS (2025)"
+  },
+  "priceTrend": [
+    {
+      "crop": "배추",
+      "unit": "원/kg",
+      "year": 2026,
+      "averageYears": [
+        2025,
+        2024,
+        2023,
+        2022,
+        2021
+      ],
+      "packageKg": 10,
+      "months": [
+        {
+          "month": 1,
+          "now": 1109,
+          "avg": 899
+        },
+        {
+          "month": 2,
+          "now": 1084,
+          "avg": 1007
+        },
+        {
+          "month": 3,
+          "now": 1053,
+          "avg": 1195
+        },
+        {
+          "month": 4,
+          "now": 967,
+          "avg": 1324
+        },
+        {
+          "month": 5,
+          "now": 683,
+          "avg": 967
+        },
+        {
+          "month": 6,
+          "now": 678,
+          "avg": 851
+        },
+        {
+          "month": 7,
+          "now": 765,
+          "avg": 1203
+        }
+      ]
+    },
+    {
+      "crop": "양파",
+      "unit": "원/kg",
+      "year": 2026,
+      "averageYears": [
+        2025,
+        2024,
+        2023,
+        2022,
+        2021
+      ],
+      "packageKg": 20,
+      "months": [
+        {
+          "month": 1,
+          "now": 878,
+          "avg": 1045
+        },
+        {
+          "month": 2,
+          "now": 877,
+          "avg": 1086
+        },
+        {
+          "month": 3,
+          "now": 661,
+          "avg": 1148
+        },
+        {
+          "month": 4,
+          "now": 699,
+          "avg": 998
+        },
+        {
+          "month": 5,
+          "now": 519,
+          "avg": 758
+        },
+        {
+          "month": 6,
+          "now": 538,
+          "avg": 791
+        },
+        {
+          "month": 7,
+          "now": 704,
+          "avg": 853
+        }
+      ]
+    },
+    {
+      "crop": "마늘",
+      "unit": "원/kg",
+      "year": 2026,
+      "averageYears": [
+        2025,
+        2024,
+        2023,
+        2022,
+        2021
+      ],
+      "packageKg": 20,
+      "months": [
+        {
+          "month": 1,
+          "now": 8064,
+          "avg": 7365
+        },
+        {
+          "month": 2,
+          "now": 8060,
+          "avg": 7441
+        },
+        {
+          "month": 3,
+          "now": 8021,
+          "avg": 7579
+        },
+        {
+          "month": 4,
+          "now": 8037,
+          "avg": 7741
+        },
+        {
+          "month": 5,
+          "now": 7961,
+          "avg": 7808
+        },
+        {
+          "month": 6,
+          "now": 7774,
+          "avg": 7672
+        },
+        {
+          "month": 7,
+          "now": 7583,
+          "avg": 7393
+        }
+      ]
+    },
+    {
+      "crop": "감자",
+      "unit": "원/kg",
+      "year": 2026,
+      "averageYears": [
+        2025,
+        2024,
+        2023,
+        2022,
+        2021
+      ],
+      "packageKg": 20,
+      "months": [
+        {
+          "month": 1,
+          "now": 2995,
+          "avg": 2315
+        },
+        {
+          "month": 2,
+          "now": 2983,
+          "avg": 2496
+        },
+        {
+          "month": 3,
+          "now": 3473,
+          "avg": 2385
+        },
+        {
+          "month": 4,
+          "now": 3688,
+          "avg": 2571
+        },
+        {
+          "month": 5,
+          "now": 3059,
+          "avg": 2735
+        },
+        {
+          "month": 6,
+          "now": 1752,
+          "avg": 1846
+        },
+        {
+          "month": 7,
+          "now": 1666,
+          "avg": 1710
+        }
+      ]
+    },
+    {
+      "crop": "대파",
+      "unit": "원/kg",
+      "year": 2026,
+      "averageYears": [
+        2025,
+        2024,
+        2023,
+        2022,
+        2021
+      ],
+      "packageKg": 1,
+      "months": [
+        {
+          "month": 1,
+          "now": 2043,
+          "avg": 2750
+        },
+        {
+          "month": 2,
+          "now": 2288,
+          "avg": 3148
+        },
+        {
+          "month": 3,
+          "now": 1897,
+          "avg": 2971
+        },
+        {
+          "month": 4,
+          "now": 1408,
+          "avg": 2302
+        },
+        {
+          "month": 5,
+          "now": 1865,
+          "avg": 2083
+        },
+        {
+          "month": 6,
+          "now": 2081,
+          "avg": 1789
+        },
+        {
+          "month": 7,
+          "now": 2159,
+          "avg": 1970
+        }
+      ]
+    },
+    {
+      "crop": "고추",
+      "unit": "원/kg",
+      "year": 2026,
+      "averageYears": [
+        2025,
+        2024,
+        2023,
+        2022,
+        2021
+      ],
+      "packageKg": 10,
+      "months": [
+        {
+          "month": 1,
+          "now": 4913,
+          "avg": 8201
+        },
+        {
+          "month": 2,
+          "now": 7057,
+          "avg": 8357
+        },
+        {
+          "month": 3,
+          "now": 12618,
+          "avg": 14906
+        },
+        {
+          "month": 4,
+          "now": 10963,
+          "avg": 15442
+        },
+        {
+          "month": 5,
+          "now": 9096,
+          "avg": 9154
+        },
+        {
+          "month": 6,
+          "now": 7546,
+          "avg": 7965
+        },
+        {
+          "month": 7,
+          "now": 6825,
+          "avg": 6183
+        }
+      ]
+    }
+  ],
+  "production": [
+    {
+      "crop": "쌀",
+      "now": 3539.4,
+      "avg": 3712.8,
+      "year": 2025,
+      "averageYears": [2020, 2021, 2022, 2023, 2024]
+    },
+    {
+      "crop": "양파",
+      "now": 1181.6,
+      "avg": 1354.2,
+      "year": 2025,
+      "averageYears": [2020, 2021, 2022, 2023, 2024]
+    },
+    {
+      "crop": "배추",
+      "now": 1023.9,
+      "avg": 968.5,
+      "year": 2025,
+      "averageYears": [2020, 2021, 2022, 2023, 2024]
+    },
+    {
+      "crop": "감자",
+      "now": 470,
+      "avg": 542.6,
+      "year": 2025,
+      "averageYears": [2020, 2021, 2022, 2023, 2024]
+    },
+    {
+      "crop": "사과",
+      "now": 448,
+      "avg": 496.3,
+      "year": 2025,
+      "averageYears": [2020, 2021, 2022, 2023, 2024]
+    },
+    {
+      "crop": "마늘",
+      "now": 310,
+      "avg": 351.7,
+      "year": 2025,
+      "averageYears": [2020, 2021, 2022, 2023, 2024]
+    },
+    {
+      "crop": "배",
+      "now": 197.5,
+      "avg": 243.1,
+      "year": 2025,
+      "averageYears": [2020, 2021, 2022, 2023, 2024]
+    },
+    {
+      "crop": "콩",
+      "now": 156.1,
+      "avg": 141.4,
+      "year": 2025,
+      "averageYears": [2020, 2021, 2022, 2023, 2024]
+    }
+  ]
+}

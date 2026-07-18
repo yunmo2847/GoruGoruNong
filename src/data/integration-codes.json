@@ -1,0 +1,124 @@
+{
+  "_note": "KOSIS(재배면적)/aT data.go.kr(가격)/MAFRA(생산량)/APIHUB·AMIS·ARCCAS·NCPMS(기후·병충해 알림) 실연동 코드 매핑. 인증키 발급 후 각 포털의 코드표를 보고 값을 검증/보완하세요. 값이 비었거나 틀리면 해당 항목은 자동으로 스냅샷/mock 폴백됩니다(앱은 절대 깨지지 않음).",
+  "_priceSource": "가격추이는 atDataGo(공공데이터포털 aT serviceKey) 를 우선 사용하고, 없으면 kamis(직접 API), 그것도 없으면 합성값 순으로 폴백합니다. aT 품목코드는 kamis.items 를 재사용합니다.",
+  "apihub": {
+    "_desc": "기상청 API허브(apihub.kma.go.kr). authKey 방식(URL 쿼리). 정확한 관측 엔드포인트/파라미터명은 승인 후 마이페이지의 서비스 상세에서 확인해 baseUrl/params 를 채우세요. 비어있으면(기본값) 건너뛰고 climateRisk.ts mock 사용.",
+    "baseUrl": "",
+    "params": { "authKey": "authKey", "tm": "tm", "stn": "stn" },
+    "stationCodes": {}
+  },
+  "amis": {
+    "_desc": "농촌진흥청 국립농업과학원 농업기상 기본관측데이터(공공데이터포털 15078057). serviceKey 방식. baseUrl/params 는 승인 후 확정.",
+    "baseUrl": "",
+    "numOfRows": 10,
+    "params": { "serviceKey": "serviceKey", "returnType": "returnType", "returnTypeValue": "json", "numOfRows": "numOfRows", "pageNo": "pageNo", "obsDate": "obsDate", "stnCode": "stnCode" },
+    "stationCodes": {}
+  },
+  "arccas": {
+    "_desc": "농업·농촌 기후정보시스템(arccas.or.kr). 확정된 공개 REST API 스펙을 찾지 못함 — 이용기관 문의 후 baseUrl/params 확보 시 채우세요. 비어있으면 climateRisk.ts mock 사용(2100년 시나리오라 자주 안 바뀌므로 폴백 영향 적음).",
+    "baseUrl": "",
+    "params": { "apiKey": "apiKey", "region": "region", "scenario": "scenario" },
+    "defaultScenario": "ssp245",
+    "regionCodes": {}
+  },
+  "ncpms": {
+    "_desc": "국가농작물병해충관리시스템 병해충 예찰정보(공공데이터포털 15058192). serviceKey 방식. baseUrl/params 는 승인 후 확정.",
+    "baseUrl": "",
+    "numOfRows": 5,
+    "params": { "serviceKey": "serviceKey", "returnType": "returnType", "returnTypeValue": "json", "numOfRows": "numOfRows", "pageNo": "pageNo", "cropName": "cropName" },
+    "cropAliases": {}
+  },
+  "atDataGo": {
+    "_desc": "공공데이터포털(data.go.kr) 15156057 '한국농수산식품유통공사_일별 도,소매 가격정보 조회'. serviceKey 방식. 정확한 요청주소는 승인 후 '활용신청 상세'의 요청주소로 확정 -> baseUrl 에 채우세요.",
+    "baseUrl": "",
+    "productClsCode": "01",
+    "_productClsCode": "01=도매, 02=소매",
+    "numOfRows": 100,
+    "_params": "승인 상세의 요청변수명에 맞춰 조정. 대부분 serviceKey/returnType/numOfRows/pageNo/regday(조회일자 YYYY-MM-DD)/productClsCode/itemCategoryCode/itemCode/kindCode 형태.",
+    "params": {
+      "serviceKey": "serviceKey",
+      "returnType": "returnType",
+      "returnTypeValue": "json",
+      "numOfRows": "numOfRows",
+      "pageNo": "pageNo",
+      "regday": "regday",
+      "productClsCode": "productClsCode",
+      "itemCategoryCode": "itemCategoryCode",
+      "itemCode": "itemCode",
+      "kindCode": "kindCode"
+    }
+  },
+  "mafra": {
+    "_desc": "농림축산식품 공공데이터 포털(data.mafra.go.kr / EPIS OASIS) 생산량 데이터. 회원가입 시 자동 발급되는 인증키를 경로에 넣는 OASIS 표준 형식. 서비스명/필드명은 포털의 해당 데이터 '오픈API 상세'에서 확인해 채우세요.",
+    "urlTemplate": "http://211.237.50.150:7080/openapi/{KEY}/json/{SERVICE}/{START}/{END}",
+    "service": "",
+    "_service": "예: Grid_xxxxxxxxxxxxxxxx_1 형태의 서비스명. 비어 있으면 MAFRA 생산량은 건너뛰고 합성값을 사용합니다.",
+    "pageSize": 1000,
+    "cropField": "PDLT_NM",
+    "productionField": "PRDQ",
+    "yearField": "YR",
+    "_fields": "응답의 실제 필드명으로 교체하세요(작물명/생산량(톤)/연도).",
+    "cropAliases": {
+      "배추": "배추", "무": "무", "양파": "양파", "마늘": "마늘", "감자": "감자",
+      "대파": "대파", "고추": "고추", "당근": "당근", "고구마": "고구마", "콩": "콩", "쌀": "쌀"
+    }
+  },
+  "kamis": {
+    "baseUrl": "http://www.kamis.or.kr/service/price/xml.do",
+    "_action": "periodProductList = 기간별 품목별 도·소매가격",
+    "action": "periodProductList",
+    "productClsCode": "01",
+    "_productClsCode": "01=도매, 02=소매",
+    "_items": "categoryCode(부류): 100 식량작물·200 채소류·300 특용작물·400 과일류. itemCode/kindCode 는 KAMIS 품목코드표에서 확인해 보완하세요.",
+    "items": {
+      "배추": { "categoryCode": "200", "itemCode": "211", "kindCode": "" },
+      "상추": { "categoryCode": "200", "itemCode": "214", "kindCode": "" },
+      "시금치": { "categoryCode": "200", "itemCode": "213", "kindCode": "" },
+      "양배추": { "categoryCode": "200", "itemCode": "212", "kindCode": "" },
+      "무": { "categoryCode": "200", "itemCode": "231", "kindCode": "" },
+      "당근": { "categoryCode": "200", "itemCode": "232", "kindCode": "" },
+      "감자": { "categoryCode": "100", "itemCode": "152", "kindCode": "" },
+      "고구마": { "categoryCode": "100", "itemCode": "153", "kindCode": "" },
+      "양파": { "categoryCode": "200", "itemCode": "245", "kindCode": "" },
+      "마늘": { "categoryCode": "200", "itemCode": "258", "kindCode": "" },
+      "대파": { "categoryCode": "200", "itemCode": "246", "kindCode": "" },
+      "고추": { "categoryCode": "200", "itemCode": "270", "kindCode": "" },
+      "생강": { "categoryCode": "200", "itemCode": "265", "kindCode": "" },
+      "토마토": { "categoryCode": "200", "itemCode": "225", "kindCode": "" },
+      "오이": { "categoryCode": "200", "itemCode": "223", "kindCode": "" },
+      "호박": { "categoryCode": "200", "itemCode": "224", "kindCode": "" },
+      "딸기": { "categoryCode": "200", "itemCode": "226", "kindCode": "" },
+      "사과": { "categoryCode": "400", "itemCode": "411", "kindCode": "" },
+      "배": { "categoryCode": "400", "itemCode": "412", "kindCode": "" },
+      "감귤": { "categoryCode": "400", "itemCode": "413", "kindCode": "" },
+      "포도": { "categoryCode": "400", "itemCode": "414", "kindCode": "" },
+      "콩": { "categoryCode": "100", "itemCode": "141", "kindCode": "" },
+      "쌀": { "categoryCode": "100", "itemCode": "111", "kindCode": "" }
+    }
+  },
+  "kosis": {
+    "baseUrl": "https://kosis.kr/openapi/Param/statisticsParameterData.do",
+    "orgId": "101",
+    "_areaTblId": "농작물생산조사 '재배면적' 통계표의 tblId 를 KOSIS 통계표 검색에서 확인해 채우세요 (예: DT_1ET____). 비어 있으면 KOSIS 연동은 건너뛰고 스냅샷을 사용합니다.",
+    "areaTblId": "",
+    "itmIdArea": "T10",
+    "_itmIdArea": "재배면적 항목의 itmId (통계표 메타에서 확인). ha 단위 항목으로.",
+    "prdSe": "Y",
+    "recentYears": 5,
+    "_provinceObjL": "objL1 = 시도. 우리 도(道) 이름 -> KOSIS 지역분류코드. 통계표 메타(분류값)에서 확인해 채우세요.",
+    "provinceObjL": "objL1",
+    "provinceCodes": {
+      "서울": "", "인천": "", "경기": "", "강원": "", "충북": "", "충남": "",
+      "대전": "", "세종": "", "전북": "", "전남": "", "광주": "", "경북": "",
+      "경남": "", "대구": "", "울산": "", "부산": "", "제주": ""
+    },
+    "_cropObjL": "objL2 = 작물(품목). 우리 작물명 -> KOSIS 품목분류코드. 통계표 메타에서 확인해 채우세요.",
+    "cropObjL": "objL2",
+    "cropCodes": {
+      "배추": "", "상추": "", "시금치": "", "양배추": "", "무": "", "당근": "",
+      "감자": "", "고구마": "", "양파": "", "마늘": "", "대파": "", "고추": "",
+      "생강": "", "토마토": "", "오이": "", "호박": "", "딸기": "",
+      "사과": "", "배": "", "감귤": "", "포도": "", "콩": "", "쌀": ""
+    }
+  }
+}

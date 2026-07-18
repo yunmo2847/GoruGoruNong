@@ -1,0 +1,7 @@
+{
+  "tool_name": "Read",
+  "tool_input_preview": "{\"file_path\":\"C:\\\\Users\\\\pokey\\\\OneDrive\\\\바탕 화면\\\\에리카\\\\.claude\\\\settings.json\"}",
+  "error": "File does not exist. Note: your current working directory is C:\\Users\\pokey\\OneDrive\\바탕 화면\\에리카.",
+  "timestamp": "2026-07-18T07:08:26.993Z",
+  "retry_count": 1
+}

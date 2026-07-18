@@ -1,0 +1,167 @@
+RALPH PROGRESS LOG — 농산물 수급 불균형 해소 앱
+=================================================
+
+Plan: .omc/plans/plan-agri-supply-demand-app.md
+PRD:  .omc/state/sessions/2014f827-.../prd.json (16 stories)
+
+ARCHITECTURE DECISIONS
+- Hybrid data lifecycle (plan principle #5): baseline/market-stats = frozen snapshot
+  (seed script output, src/data/*.json). User plans = live, file-backed (server/store).
+- Backend: Express + TypeScript run via tsx; port 5174. Vite dev proxies /api -> 5174.
+- Auth: bcryptjs password hash + JWT in httpOnly cookie. Secret server-side only (.env).
+- Map: point/bubble choropleth colored by RiskTier over a Korea backdrop (offline-safe;
+  no leaflet tile network dependency). README documents dropping in a simplified GeoJSON.
+- No real KAMIS/KOSIS/MAFRA keys available -> seed script uses documented deterministic
+  fallback generator producing realistic frozen snapshot (header comment documents this).
+
+CROP TAXONOMY (부류)
+  엽채류: 배추 상추 시금치 양배추 | 근채류: 무 당근 감자 고구마
+  양념채소: 양파 마늘 대파 고추 생강 | 과채류: 토마토 오이 호박 딸기
+  과수: 사과 배 감귤 포도 | 곡물: 콩 쌀
+
+DEMO ACCOUNT (seeded at server start): demo@sugub.kr / demo1234
+
+ITERATION LOG
+-------------
+[IT-1] 전체 구현 완료 (16/16 스토리 passes:true)
+
+BACKEND (US-001~011)
+- server/index.ts + routes/{auth,plans,risk,recommendation,market,climate,comparison}.ts
+- 파일 기반 저장소: server/store/{users,plans}.ts (server/.data/*.json, gitignored)
+- 인증: bcryptjs 해시 + JWT httpOnly 쿠키(server/auth-token.ts), requireAuth 미들웨어
+- 시드: scripts/seed-baseline.ts -> baseline.json(304행,17도,23작물)+market-stats.json
+- 초기 계획 시드: baseline 행에서 유도한 55개 계획(전국 16도, demoScenario 포함)
+- 순수 lib: riskFormula(±10/20/30 경계), recommendation(4인자 가중), climateRisk(결정적),
+  nationwideComparison(도별/부류별 rollup), deterministic(FNV-1a seeded)
+- 검증: demoScenario 해남×배추 항상 +46% 경계. 재시작 지속성 확인. 401 게이트 확인.
+
+FRONTEND (US-012~016)
+- src/api.ts 타입드 클라이언트(credentials:include), AuthContext/useAuth
+- 컴포넌트: HeatmapMap(버블 choropleth), LoginForm/SignupForm, PlanForm(52지역/23작물),
+  RiskAlertPanel, RecommendationCard(per-factor breakdown), NationwideComparison(정렬/필터/rollup),
+  PriceTrendChart/ProductionComparisonChart(recharts)
+- 페이지: Login/Map/Register/Comparison/Dashboard/Profile
+- App.tsx: HashRouter 셸 + auth-gated 라우트 + 탭바
+- 삭제: 구 src/data.ts(목업, 미사용)
+
+검증 결과
+- npm run test: 25 passed (4 files)
+- npx tsc -b: exit 0 / tsconfig.server: exit 0 / vite build: 성공
+- dist/ 시크릿 grep: 0건 / oxlint: exit 0 (경고만, allowConstantExport)
+- e2e: vite(5173)->express(5174) 프록시로 login/me/comparison/heatmap 정상
+
+LEARNINGS
+- 시드 계획은 반드시 baseline에 존재하는 시군구×작물 조합에서 유도해야 편차/tier가 계산됨
+  (초기엔 임의 조합을 써서 baseline 0 -> 전부 정상이 되는 버그가 있었음).
+- 공유 lib(src/lib)에서 JSON은 import attribute 없이 import (Vite+tsx 양쪽 호환).
+- Windows Git Bash 는 한글 -d 본문을 깨뜨림 -> Node fetch로 UTF-8 검증할 것.
+
+=================================================
+RALPH RUN 2 — 리브랜딩·UX 보완(A트랙) + 기후·병충해 위험도 알림(B트랙)
+=================================================
+Plan: .omc/plans/plan-rebrand-ux-fixes-climate-pest-alerts.md
+PRD:  같은 세션 prd.json 교체 (A-001~A-005, B-001~B-007, 12 stories)
+
+핵심 설계 결정 (A트랙)
+- ha->평 변환은 표시 레이어(ui.tsx fmtPyeong)와 입력 파싱 경계(PlanForm 제출 직전)에서만 수행.
+  서버 스키마·riskFormula·nationwideComparison·demoScenario 회귀는 절대 건드리지 않음(ha 내부 유지).
+- farm.png는 이미 src/assets/에 존재 확인됨(사용자가 미리 추가) - import 경로만 교체.
+- Login.tsx는 변경 대상 아님(사용자 요청은 내정보 페이지로 한정, hero.png 유지).
+
+핵심 설계 결정 (B트랙)
+- ARCCAS(2100년 시나리오, 자주 안바뀜) = 기존 KOSIS/aT/MAFRA와 동일한 "동결 스냅샷" 패턴.
+- APIHUB/AMIS(실시간 관측)·NCPMS(병해충, 주기 갱신) = 서버 메모리 TTL 캐시 + 실패시 climateRisk.ts
+  결정적 mock 폴백(throw 금지, null 반환) - 기존 kosis.ts/atDataGo.ts/mafra.ts와 동일 패턴 재사용.
+- 생육단계는 등록계획의 plant/harvest 월(이미 존재)로 경과율 계산 -> 초기/생육기/수확기 3단계(MVP).
+- AMIS = 농촌진흥청 농업기상관측 데이터(공공데이터포털, 사용자 확정).
+
+ITERATION LOG
+-------------
+[IT-1] A트랙 전체 완료 (A-001~A-005 passes:true)
+
+- 리브랜딩: index.html, README.md, App.tsx(스플래시), index.css(주석), Login.tsx(브랜드명+아바타 "고")
+  전부 고루고루농으로 교체. grep 0건 확인.
+- Profile.tsx 배경사진: farmImg import를 farm.png로 교체(파일 기확보). Login.tsx는 hero.png 유지.
+- src/lib/units.ts 신설: haToPyeong/pyeongToHa. **중요 정정**: 1ha=3025.62평이 아니라
+  정확히 3025평이다(1평=400/121㎡ 한국 표준 환산 기준). 최초 units.test.ts 작성 시 3025.62로
+  잘못 가정해서 테스트 2건이 실패했고, 실제 계산값(3025.0001...)에 맞춰 상수를 3025로 수정 후 통과.
+  -> 계획서(plan-rebrand-ux-fixes-climate-pest-alerts.md)의 "3025.62평" 서술도 부정확했음.
+- fmtPyeong(ui.tsx)으로 fmtHa 대체. PlanForm은 평 입력 -> pyeongToHa로 변환해 서버엔 여전히 ha 전송
+  (서버 스키마/riskFormula/nationwideComparison/demoScenario 전부 무변경, 회귀 테스트 그대로 통과).
+- UI 짤림 3곳 수정:
+  1) NationwideComparison 테이블: minWidth:480 + 우측 페이드 그라디언트 힌트 + "좌우로 스크롤하세요"
+     안내문구 추가. (테이블이 6컬럼이라 애초에 390px에 안 들어갔던 것 -> 스크롤 자체는 이미 있었고
+     이번에 "짤린 것처럼 보이는" 문제를 시각적 힌트로 해결. 완전히 안 짤리게 만든 게 아님에 유의.)
+  2) Profile 헤더: height 180->208, 그라데이션 강화(.35/.55 -> .4/.62), 오버랩 마진 -42->-28.
+     Login 헤더: height 260->288, 그라데이션 종료지점 45%->50%, 폼 마진 -8->0.
+  3) ProductionComparisonChart: XAxis interval=0 라벨 8개가 겹치던 문제 -> angle=-35 회전 +
+     height 190->210 + bottom margin 16. RecommendationCard: 후보 row에 minWidth:0+ellipsis
+     추가로 긴 작물명 오버플로우 방지.
+- 검증: npx playwright install chromium + npm run dev:all 로 실제 6개 화면 스크린샷 촬영,
+  로그인 플로우 실사용(로그인->지도->핀클릭->추천펼치기->비교->대시보드->등록폼) 확인.
+  콘솔에러 없음(초기 401은 세션체크로 정상). playwright는 devDependency로 남겨둠(향후 UI 검증 재사용).
+- 최종 회귀: vitest 29 passed, tsc(app+server) exit 0, vite build 성공, oxlint exit 0,
+  demoScenario 회귀 테스트 별도 재확인 통과.
+
+**중요 관찰(사용자에게 보고 필요, 스코프 밖 이슈)**:
+기존 목업 데이터(baseline/plans)는 "시군구 전체 작물 재배면적"(수천 ha) 규모로 설계되어 있어서,
+평으로 환산하면 카드/테이블에 "11,482,900평" 같은 8자리 숫자가 뜬다. 계산은 정확하지만
+개별 농가 단위(수백~수천 평)를 기대하는 사용자에게는 어색해 보일 수 있음. 데이터 스케일 조정은
+이번 작업 범위(단위 표시 전환)를 벗어나므로 임의로 축소하지 않고 그대로 두었다 — 후속 논의 필요.
+
+[IT-2] B트랙 전체 완료 (B-001~B-007 passes:true)
+
+- 4개 어댑터: scripts/integrations/{apihub,amis,arccas,ncpms}.ts. 기존 kosis/atDataGo/mafra와
+  동일하게 config(integration-codes.json) baseUrl 비면 즉시 null, 실 엔드포인트에 가짜 키로 호출해도
+  graceful null(NO CRASH) 확인. ARCCAS는 리서치 시점 기준 확정된 공개 REST API 스펙을 못 찾아서
+  정직하게 주석에 명시(이용기관 문의 필요) — 다른 3개와 동일한 방어 패턴은 유지.
+- src/lib/normalization.ts: 지역/작물코드 매핑 + toDailyKey(시간단위 통일). **버그 발견/수정**: 기상청
+  YYYYMMDDHHmm을 new Date()로 파싱 후 toISOString()하면 KST 로컬시간이 UTC로 변환되며 날짜가
+  하루 밀리는 타임존 버그가 있었음 -> 문자열에서 직접 YYYY-MM-DD 추출하는 방식으로 수정.
+- src/lib/climateAlert.ts: S_weather/S_pest/S_longterm + 생육단계(초기/생육기/수확기, plant/harvest
+  경과율 기반) 가중합 + branchAlert(즉시알림/방제안내/추천트리거, 3개 서로 다른 조건).
+  **버그 발견/수정**: computePestScore의 mock 폴백에 임의로 곱한 0.6 배율 때문에 NCPMS 키 없는 기본
+  상태에서 pestScore 이론상 최댓값이 0.414로 묶여 controlGuidance/recommendTrigger가 영원히
+  발동 불가능했음(0.5 임계값을 못 넘음). 0.6 배율 제거 후 실제로 강릉시×생강 등 일부 조합에서
+  3개 분기 모두 발동함을 실기기(playwright) 스크린샷으로 확인.
+- server/routes/climate-alert.ts: GET /api/climate-alert/:region/:crop. server/cache.ts로
+  APIHUB/AMIS(1시간)·NCPMS(8시간) TTL 캐시, ARCCAS는 scripts/seed-climate.ts 동결 스냅샷
+  (src/data/climate-longterm.json)에서 조회(매 요청 호출 안 함).
+- src/components/ClimateAlertCard.tsx: Map.tsx의 RiskAlertPanel 바로 아래 렌더. recommendTrigger
+  true면 RecommendationCard를 자동으로 펼침(기존 추천엔진 재사용, 중복 fetch 없음).
+- 검증: playwright로 실제 화면 스크린샷 2회(정상 tier 케이스, 강릉시×생강 경보 케이스 — 즉시알림
+  배지·방제안내 텍스트·추천카드 자동펼침 전부 육안 확인). 테스트 중 등록한 임시 데이터(강릉시×생강)는
+  server/.data/plans.json에서 정리 후 서버 재시작으로 인메모리도 정리함.
+- 최종 회귀: vitest 63 passed(8 files), tsc(app+server) exit 0, vite build 성공, oxlint exit 0,
+  dist/ 신규 키 4종 포함 시크릿 grep 0건, scripts/integrations 프론트엔드 미유입 확인.
+- README에 기후·병충해 알림 섹션 + 4개 신규 키 발급처 + seed:climate 스크립트 문서화.
+
+[IT-3] 아키텍트 리뷰(APPROVED) 후 deslop 패스 + 회귀 재검증
+- 삭제: src/lib/normalization.ts의 미사용 export `regionOf`(어디서도 호출 안 됨).
+- **아키텍처 경계 문서화(삭제 아님)**: normalization.ts(normalizeBatch 등)는 잘 만들어지고 테스트도
+  통과하지만, 실제로는 어떤 서버 코드에서도 import되지 않음 — 4개 어댑터가 지역 1건 조회 방식이라
+  각자 자체 config로 코드를 매핑하기 때문. 사용자가 명시적으로 요청한 기능(B-002)이라 삭제하지 않고,
+  파일 상단에 현재 상태(테스트로만 검증됨, 벌크 엔드포인트 전환 시 사용 지점)를 명시하는 주석을 추가.
+- 중복 제거: src/components/RecommendationCard.tsx의 FactorBar와 ClimateAlertCard.tsx의 ScoreBar가
+  구조적으로 동일(라벨+진행바+퍼센트)했던 것을 src/ui.tsx의 공용 PercentBar로 통합. 시각적 출력은
+  playwright 스크린샷으로 리팩터 전후 동일함을 재확인(마늘 72.7/수익성49/기후적합도89 그대로).
+- 재검증: vitest 63 passed, tsc(app+server) exit 0, vite build 성공, oxlint exit 0.
+
+[IT-4] 로그인 배경 확장 + API 재평가 + 권장/주의 알림 + 재배계획 삭제 + 데모 초기화
+- Login.tsx도 farm.png로 교체(내정보와 동일 사진). hero.png는 코드상 완전히 미참조 상태(자산 파일은 보존).
+- API 재평가: KOSIS_KEY 여전히 실 엔드포인트에서 거부(유효하지 않은 인증KEY, 재확인함),
+  atDataGo.baseUrl/mafra.service 여전히 미설정 -> 재배면적/생산량/도매가 전부 synthetic 그대로.
+  상태 변화 없음, 사용자에게 투명하게 보고.
+- src/lib/climateAlert.ts에 generateAdvisories() 추가: weatherScore/pestScore/longtermScore
+  임계값(0.4/0.7) + growthStage(초기/수확기)로 recommendations[]/precautions[] 결정적 생성.
+  climateAlert.test.ts에 7개 테스트 추가(28개로 증가). API 응답(GET /api/climate-alert)에 포함,
+  ClimateAlertCard.tsx에 "⚠ 주의점"/"✓ 권장사항" 불릿 리스트로 렌더(screenshot 확인).
+- 재배계획 삭제: server/store/plans.ts deletePlan(id, ownerId)(소유자 검증), DELETE /api/plans/:id
+  (requireAuth, 404 if 없음/타인소유). src/api.ts deletePlan. src/pages/Profile.tsx에 행별 ✕ 버튼
+  -> 인라인 확인("삭제할까요? [삭제][취소]") -> 확정시 API 호출 후 로컬 상태에서 제거.
+  API 테스트: 미인증 401, 존재하지않는id 404, 정상삭제 200 + mine에서 사라짐 확인.
+- 데모 계정 재배계획 초기화: server/.data/plans.json 전체(57개, 전부 u-demo 소유 확인 후) 비우고
+  서버 재시작 -> initPlans()가 pristine 시드 재생성(54개, demoScenario 해남군×배추 +46%/경계 유지 확인).
+- 최종 회귀: vitest 70 passed(8 files), vite build 성공, oxlint exit 0, dist 시크릿 grep 0건.
+
+

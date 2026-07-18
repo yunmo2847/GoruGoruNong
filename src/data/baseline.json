@@ -1,0 +1,5947 @@
+{
+  "demoScenario": {
+    "region": "해남군",
+    "crop": "배추"
+  },
+  "generatedAt": "2026-07-18T21:04:10.024Z",
+  "mode": "offline",
+  "source": "공식 파일 기반 오프라인 스냅샷 · 가격 KAMIS 2026년 · 재배면적/생산량 KOSIS 2025년",
+  "providers": {
+    "baseline": "KOSIS-XLS (2025, 미수록 품목은 기준값 보완)",
+    "price": "KAMIS-XLS (2026)",
+    "production": "KOSIS-XLS (2025)"
+  },
+  "rows": [
+    {
+      "code": "11110",
+      "region": "종로구",
+      "province": "서울",
+      "crop": "양배추",
+      "group": "엽채류",
+      "baselineHa": 1058,
+      "isDemoScenario": false
+    },
+    {
+      "code": "11110",
+      "region": "종로구",
+      "province": "서울",
+      "crop": "생강",
+      "group": "양념채소",
+      "baselineHa": 3224,
+      "isDemoScenario": false
+    },
+    {
+      "code": "11110",
+      "region": "종로구",
+      "province": "서울",
+      "crop": "토마토",
+      "group": "과채류",
+      "baselineHa": 2343,
+      "isDemoScenario": false
+    },
+    {
+      "code": "11110",
+      "region": "종로구",
+      "province": "서울",
+      "crop": "감귤",
+      "group": "과수",
+      "baselineHa": 1492,
+      "isDemoScenario": false
+    },
+    {
+      "code": "23010",
+      "region": "강화군",
+      "province": "인천",
+      "crop": "시금치",
+      "group": "엽채류",
+      "baselineHa": 731,
+      "isDemoScenario": false
+    },
+    {
+      "code": "23010",
+      "region": "강화군",
+      "province": "인천",
+      "crop": "대파",
+      "group": "양념채소",
+      "baselineHa": 502,
+      "isDemoScenario": false
+    },
+    {
+      "code": "23010",
+      "region": "강화군",
+      "province": "인천",
+      "crop": "생강",
+      "group": "양념채소",
+      "baselineHa": 2706,
+      "isDemoScenario": false
+    },
+    {
+      "code": "23010",
+      "region": "강화군",
+      "province": "인천",
+      "crop": "토마토",
+      "group": "과채류",
+      "baselineHa": 1473,
+      "isDemoScenario": false
+    },
+    {
+      "code": "23010",
+      "region": "강화군",
+      "province": "인천",
+      "crop": "오이",
+      "group": "과채류",
+      "baselineHa": 362,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31040",
+      "region": "이천시",
+      "province": "경기",
+      "crop": "무",
+      "group": "근채류",
+      "baselineHa": 3148,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31040",
+      "region": "이천시",
+      "province": "경기",
+      "crop": "고구마",
+      "group": "근채류",
+      "baselineHa": 859,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31040",
+      "region": "이천시",
+      "province": "경기",
+      "crop": "대파",
+      "group": "양념채소",
+      "baselineHa": 2027,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31040",
+      "region": "이천시",
+      "province": "경기",
+      "crop": "토마토",
+      "group": "과채류",
+      "baselineHa": 2649,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31040",
+      "region": "이천시",
+      "province": "경기",
+      "crop": "호박",
+      "group": "과채류",
+      "baselineHa": 1164,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31050",
+      "region": "안성시",
+      "province": "경기",
+      "crop": "시금치",
+      "group": "엽채류",
+      "baselineHa": 1691,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31050",
+      "region": "안성시",
+      "province": "경기",
+      "crop": "무",
+      "group": "근채류",
+      "baselineHa": 2987,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31050",
+      "region": "안성시",
+      "province": "경기",
+      "crop": "고구마",
+      "group": "근채류",
+      "baselineHa": 2697,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31050",
+      "region": "안성시",
+      "province": "경기",
+      "crop": "생강",
+      "group": "양념채소",
+      "baselineHa": 1350,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31050",
+      "region": "안성시",
+      "province": "경기",
+      "crop": "토마토",
+      "group": "과채류",
+      "baselineHa": 1621,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31060",
+      "region": "여주시",
+      "province": "경기",
+      "crop": "무",
+      "group": "근채류",
+      "baselineHa": 2803,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31060",
+      "region": "여주시",
+      "province": "경기",
+      "crop": "오이",
+      "group": "과채류",
+      "baselineHa": 1084,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31060",
+      "region": "여주시",
+      "province": "경기",
+      "crop": "호박",
+      "group": "과채류",
+      "baselineHa": 1765,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31060",
+      "region": "여주시",
+      "province": "경기",
+      "crop": "딸기",
+      "group": "과채류",
+      "baselineHa": 984,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31070",
+      "region": "포천시",
+      "province": "경기",
+      "crop": "상추",
+      "group": "엽채류",
+      "baselineHa": 2738,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31070",
+      "region": "포천시",
+      "province": "경기",
+      "crop": "양배추",
+      "group": "엽채류",
+      "baselineHa": 757,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31070",
+      "region": "포천시",
+      "province": "경기",
+      "crop": "당근",
+      "group": "근채류",
+      "baselineHa": 2344,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31070",
+      "region": "포천시",
+      "province": "경기",
+      "crop": "대파",
+      "group": "양념채소",
+      "baselineHa": 1096,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32010",
+      "region": "평창군",
+      "province": "강원",
+      "crop": "상추",
+      "group": "엽채류",
+      "baselineHa": 452,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32010",
+      "region": "평창군",
+      "province": "강원",
+      "crop": "당근",
+      "group": "근채류",
+      "baselineHa": 237,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32010",
+      "region": "평창군",
+      "province": "강원",
+      "crop": "고구마",
+      "group": "근채류",
+      "baselineHa": 930,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32010",
+      "region": "평창군",
+      "province": "강원",
+      "crop": "대파",
+      "group": "양념채소",
+      "baselineHa": 455,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32010",
+      "region": "평창군",
+      "province": "강원",
+      "crop": "생강",
+      "group": "양념채소",
+      "baselineHa": 2224,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32010",
+      "region": "평창군",
+      "province": "강원",
+      "crop": "딸기",
+      "group": "과채류",
+      "baselineHa": 659,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32020",
+      "region": "홍천군",
+      "province": "강원",
+      "crop": "호박",
+      "group": "과채류",
+      "baselineHa": 1116,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32020",
+      "region": "홍천군",
+      "province": "강원",
+      "crop": "딸기",
+      "group": "과채류",
+      "baselineHa": 1486,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32030",
+      "region": "횡성군",
+      "province": "강원",
+      "crop": "상추",
+      "group": "엽채류",
+      "baselineHa": 1831,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32030",
+      "region": "횡성군",
+      "province": "강원",
+      "crop": "생강",
+      "group": "양념채소",
+      "baselineHa": 533,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32040",
+      "region": "정선군",
+      "province": "강원",
+      "crop": "당근",
+      "group": "근채류",
+      "baselineHa": 3154,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32040",
+      "region": "정선군",
+      "province": "강원",
+      "crop": "생강",
+      "group": "양념채소",
+      "baselineHa": 2375,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32040",
+      "region": "정선군",
+      "province": "강원",
+      "crop": "호박",
+      "group": "과채류",
+      "baselineHa": 1315,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32040",
+      "region": "정선군",
+      "province": "강원",
+      "crop": "감귤",
+      "group": "과수",
+      "baselineHa": 1626,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32050",
+      "region": "강릉시",
+      "province": "강원",
+      "crop": "상추",
+      "group": "엽채류",
+      "baselineHa": 3281,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32050",
+      "region": "강릉시",
+      "province": "강원",
+      "crop": "오이",
+      "group": "과채류",
+      "baselineHa": 1458,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32050",
+      "region": "강릉시",
+      "province": "강원",
+      "crop": "호박",
+      "group": "과채류",
+      "baselineHa": 380,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32050",
+      "region": "강릉시",
+      "province": "강원",
+      "crop": "감귤",
+      "group": "과수",
+      "baselineHa": 2317,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33010",
+      "region": "괴산군",
+      "province": "충북",
+      "crop": "상추",
+      "group": "엽채류",
+      "baselineHa": 1757,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33010",
+      "region": "괴산군",
+      "province": "충북",
+      "crop": "당근",
+      "group": "근채류",
+      "baselineHa": 723,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33010",
+      "region": "괴산군",
+      "province": "충북",
+      "crop": "토마토",
+      "group": "과채류",
+      "baselineHa": 1421,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33010",
+      "region": "괴산군",
+      "province": "충북",
+      "crop": "감귤",
+      "group": "과수",
+      "baselineHa": 3126,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33020",
+      "region": "충주시",
+      "province": "충북",
+      "crop": "무",
+      "group": "근채류",
+      "baselineHa": 2289,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33020",
+      "region": "충주시",
+      "province": "충북",
+      "crop": "당근",
+      "group": "근채류",
+      "baselineHa": 1685,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33030",
+      "region": "단양군",
+      "province": "충북",
+      "crop": "무",
+      "group": "근채류",
+      "baselineHa": 2756,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33030",
+      "region": "단양군",
+      "province": "충북",
+      "crop": "대파",
+      "group": "양념채소",
+      "baselineHa": 1619,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33030",
+      "region": "단양군",
+      "province": "충북",
+      "crop": "생강",
+      "group": "양념채소",
+      "baselineHa": 1548,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33030",
+      "region": "단양군",
+      "province": "충북",
+      "crop": "토마토",
+      "group": "과채류",
+      "baselineHa": 2899,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33040",
+      "region": "음성군",
+      "province": "충북",
+      "crop": "고구마",
+      "group": "근채류",
+      "baselineHa": 1100,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33040",
+      "region": "음성군",
+      "province": "충북",
+      "crop": "생강",
+      "group": "양념채소",
+      "baselineHa": 2651,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33040",
+      "region": "음성군",
+      "province": "충북",
+      "crop": "토마토",
+      "group": "과채류",
+      "baselineHa": 1349,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33040",
+      "region": "음성군",
+      "province": "충북",
+      "crop": "오이",
+      "group": "과채류",
+      "baselineHa": 3142,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34010",
+      "region": "아산시",
+      "province": "충남",
+      "crop": "시금치",
+      "group": "엽채류",
+      "baselineHa": 1187,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34010",
+      "region": "아산시",
+      "province": "충남",
+      "crop": "양배추",
+      "group": "엽채류",
+      "baselineHa": 2431,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34010",
+      "region": "아산시",
+      "province": "충남",
+      "crop": "무",
+      "group": "근채류",
+      "baselineHa": 229,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34020",
+      "region": "태안군",
+      "province": "충남",
+      "crop": "상추",
+      "group": "엽채류",
+      "baselineHa": 357,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34030",
+      "region": "서산시",
+      "province": "충남",
+      "crop": "상추",
+      "group": "엽채류",
+      "baselineHa": 1718,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34030",
+      "region": "서산시",
+      "province": "충남",
+      "crop": "딸기",
+      "group": "과채류",
+      "baselineHa": 2250,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34030",
+      "region": "서산시",
+      "province": "충남",
+      "crop": "포도",
+      "group": "과수",
+      "baselineHa": 3195,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34040",
+      "region": "부여군",
+      "province": "충남",
+      "crop": "무",
+      "group": "근채류",
+      "baselineHa": 1234,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34040",
+      "region": "부여군",
+      "province": "충남",
+      "crop": "당근",
+      "group": "근채류",
+      "baselineHa": 976,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34040",
+      "region": "부여군",
+      "province": "충남",
+      "crop": "대파",
+      "group": "양념채소",
+      "baselineHa": 1265,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34050",
+      "region": "논산시",
+      "province": "충남",
+      "crop": "상추",
+      "group": "엽채류",
+      "baselineHa": 2561,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34050",
+      "region": "논산시",
+      "province": "충남",
+      "crop": "고구마",
+      "group": "근채류",
+      "baselineHa": 656,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34050",
+      "region": "논산시",
+      "province": "충남",
+      "crop": "딸기",
+      "group": "과채류",
+      "baselineHa": 709,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35010",
+      "region": "김제시",
+      "province": "전북",
+      "crop": "양배추",
+      "group": "엽채류",
+      "baselineHa": 1182,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35010",
+      "region": "김제시",
+      "province": "전북",
+      "crop": "무",
+      "group": "근채류",
+      "baselineHa": 1344,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35010",
+      "region": "김제시",
+      "province": "전북",
+      "crop": "오이",
+      "group": "과채류",
+      "baselineHa": 2092,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35020",
+      "region": "고창군",
+      "province": "전북",
+      "crop": "상추",
+      "group": "엽채류",
+      "baselineHa": 340,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35020",
+      "region": "고창군",
+      "province": "전북",
+      "crop": "무",
+      "group": "근채류",
+      "baselineHa": 2394,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35020",
+      "region": "고창군",
+      "province": "전북",
+      "crop": "고구마",
+      "group": "근채류",
+      "baselineHa": 1877,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35020",
+      "region": "고창군",
+      "province": "전북",
+      "crop": "생강",
+      "group": "양념채소",
+      "baselineHa": 898,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35030",
+      "region": "부안군",
+      "province": "전북",
+      "crop": "고구마",
+      "group": "근채류",
+      "baselineHa": 2928,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35030",
+      "region": "부안군",
+      "province": "전북",
+      "crop": "대파",
+      "group": "양념채소",
+      "baselineHa": 985,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35030",
+      "region": "부안군",
+      "province": "전북",
+      "crop": "포도",
+      "group": "과수",
+      "baselineHa": 3006,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35040",
+      "region": "정읍시",
+      "province": "전북",
+      "crop": "양배추",
+      "group": "엽채류",
+      "baselineHa": 2106,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35040",
+      "region": "정읍시",
+      "province": "전북",
+      "crop": "무",
+      "group": "근채류",
+      "baselineHa": 983,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35040",
+      "region": "정읍시",
+      "province": "전북",
+      "crop": "오이",
+      "group": "과채류",
+      "baselineHa": 2460,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35040",
+      "region": "정읍시",
+      "province": "전북",
+      "crop": "호박",
+      "group": "과채류",
+      "baselineHa": 2415,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35040",
+      "region": "정읍시",
+      "province": "전북",
+      "crop": "딸기",
+      "group": "과채류",
+      "baselineHa": 1505,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35050",
+      "region": "남원시",
+      "province": "전북",
+      "crop": "상추",
+      "group": "엽채류",
+      "baselineHa": 2954,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35050",
+      "region": "남원시",
+      "province": "전북",
+      "crop": "시금치",
+      "group": "엽채류",
+      "baselineHa": 1642,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35050",
+      "region": "남원시",
+      "province": "전북",
+      "crop": "무",
+      "group": "근채류",
+      "baselineHa": 2532,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35050",
+      "region": "남원시",
+      "province": "전북",
+      "crop": "당근",
+      "group": "근채류",
+      "baselineHa": 3042,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35050",
+      "region": "남원시",
+      "province": "전북",
+      "crop": "대파",
+      "group": "양념채소",
+      "baselineHa": 1421,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36010",
+      "region": "해남군",
+      "province": "전남",
+      "crop": "상추",
+      "group": "엽채류",
+      "baselineHa": 673,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36010",
+      "region": "해남군",
+      "province": "전남",
+      "crop": "당근",
+      "group": "근채류",
+      "baselineHa": 563,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36010",
+      "region": "해남군",
+      "province": "전남",
+      "crop": "호박",
+      "group": "과채류",
+      "baselineHa": 1847,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36010",
+      "region": "해남군",
+      "province": "전남",
+      "crop": "포도",
+      "group": "과수",
+      "baselineHa": 1162,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36020",
+      "region": "진도군",
+      "province": "전남",
+      "crop": "무",
+      "group": "근채류",
+      "baselineHa": 532,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36020",
+      "region": "진도군",
+      "province": "전남",
+      "crop": "당근",
+      "group": "근채류",
+      "baselineHa": 2822,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36020",
+      "region": "진도군",
+      "province": "전남",
+      "crop": "토마토",
+      "group": "과채류",
+      "baselineHa": 1625,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36020",
+      "region": "진도군",
+      "province": "전남",
+      "crop": "호박",
+      "group": "과채류",
+      "baselineHa": 736,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36030",
+      "region": "무안군",
+      "province": "전남",
+      "crop": "상추",
+      "group": "엽채류",
+      "baselineHa": 656,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36030",
+      "region": "무안군",
+      "province": "전남",
+      "crop": "시금치",
+      "group": "엽채류",
+      "baselineHa": 1869,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36030",
+      "region": "무안군",
+      "province": "전남",
+      "crop": "오이",
+      "group": "과채류",
+      "baselineHa": 2017,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36030",
+      "region": "무안군",
+      "province": "전남",
+      "crop": "감귤",
+      "group": "과수",
+      "baselineHa": 2118,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36040",
+      "region": "보성군",
+      "province": "전남",
+      "crop": "대파",
+      "group": "양념채소",
+      "baselineHa": 3395,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36040",
+      "region": "보성군",
+      "province": "전남",
+      "crop": "생강",
+      "group": "양념채소",
+      "baselineHa": 2557,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36040",
+      "region": "보성군",
+      "province": "전남",
+      "crop": "오이",
+      "group": "과채류",
+      "baselineHa": 1580,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36050",
+      "region": "고흥군",
+      "province": "전남",
+      "crop": "시금치",
+      "group": "엽채류",
+      "baselineHa": 732,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36050",
+      "region": "고흥군",
+      "province": "전남",
+      "crop": "양배추",
+      "group": "엽채류",
+      "baselineHa": 3143,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36050",
+      "region": "고흥군",
+      "province": "전남",
+      "crop": "대파",
+      "group": "양념채소",
+      "baselineHa": 1533,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36060",
+      "region": "나주시",
+      "province": "전남",
+      "crop": "상추",
+      "group": "엽채류",
+      "baselineHa": 2855,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36060",
+      "region": "나주시",
+      "province": "전남",
+      "crop": "시금치",
+      "group": "엽채류",
+      "baselineHa": 1783,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36060",
+      "region": "나주시",
+      "province": "전남",
+      "crop": "양배추",
+      "group": "엽채류",
+      "baselineHa": 879,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36060",
+      "region": "나주시",
+      "province": "전남",
+      "crop": "대파",
+      "group": "양념채소",
+      "baselineHa": 1622,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36060",
+      "region": "나주시",
+      "province": "전남",
+      "crop": "호박",
+      "group": "과채류",
+      "baselineHa": 1143,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36070",
+      "region": "영암군",
+      "province": "전남",
+      "crop": "당근",
+      "group": "근채류",
+      "baselineHa": 1768,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36070",
+      "region": "영암군",
+      "province": "전남",
+      "crop": "호박",
+      "group": "과채류",
+      "baselineHa": 3002,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37010",
+      "region": "의성군",
+      "province": "경북",
+      "crop": "시금치",
+      "group": "엽채류",
+      "baselineHa": 1858,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37010",
+      "region": "의성군",
+      "province": "경북",
+      "crop": "양배추",
+      "group": "엽채류",
+      "baselineHa": 310,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37010",
+      "region": "의성군",
+      "province": "경북",
+      "crop": "대파",
+      "group": "양념채소",
+      "baselineHa": 2736,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37010",
+      "region": "의성군",
+      "province": "경북",
+      "crop": "호박",
+      "group": "과채류",
+      "baselineHa": 2613,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37020",
+      "region": "영양군",
+      "province": "경북",
+      "crop": "무",
+      "group": "근채류",
+      "baselineHa": 2208,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37020",
+      "region": "영양군",
+      "province": "경북",
+      "crop": "대파",
+      "group": "양념채소",
+      "baselineHa": 511,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37030",
+      "region": "안동시",
+      "province": "경북",
+      "crop": "시금치",
+      "group": "엽채류",
+      "baselineHa": 231,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37030",
+      "region": "안동시",
+      "province": "경북",
+      "crop": "양배추",
+      "group": "엽채류",
+      "baselineHa": 864,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37030",
+      "region": "안동시",
+      "province": "경북",
+      "crop": "무",
+      "group": "근채류",
+      "baselineHa": 2012,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37030",
+      "region": "안동시",
+      "province": "경북",
+      "crop": "고구마",
+      "group": "근채류",
+      "baselineHa": 424,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37030",
+      "region": "안동시",
+      "province": "경북",
+      "crop": "생강",
+      "group": "양념채소",
+      "baselineHa": 2476,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37030",
+      "region": "안동시",
+      "province": "경북",
+      "crop": "오이",
+      "group": "과채류",
+      "baselineHa": 3251,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37040",
+      "region": "영주시",
+      "province": "경북",
+      "crop": "상추",
+      "group": "엽채류",
+      "baselineHa": 2733,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37040",
+      "region": "영주시",
+      "province": "경북",
+      "crop": "양배추",
+      "group": "엽채류",
+      "baselineHa": 983,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37040",
+      "region": "영주시",
+      "province": "경북",
+      "crop": "대파",
+      "group": "양념채소",
+      "baselineHa": 467,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37050",
+      "region": "상주시",
+      "province": "경북",
+      "crop": "상추",
+      "group": "엽채류",
+      "baselineHa": 962,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37050",
+      "region": "상주시",
+      "province": "경북",
+      "crop": "시금치",
+      "group": "엽채류",
+      "baselineHa": 481,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37050",
+      "region": "상주시",
+      "province": "경북",
+      "crop": "고구마",
+      "group": "근채류",
+      "baselineHa": 2427,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37060",
+      "region": "청송군",
+      "province": "경북",
+      "crop": "양배추",
+      "group": "엽채류",
+      "baselineHa": 1026,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37060",
+      "region": "청송군",
+      "province": "경북",
+      "crop": "생강",
+      "group": "양념채소",
+      "baselineHa": 2032,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37060",
+      "region": "청송군",
+      "province": "경북",
+      "crop": "오이",
+      "group": "과채류",
+      "baselineHa": 697,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37070",
+      "region": "경산시",
+      "province": "경북",
+      "crop": "상추",
+      "group": "엽채류",
+      "baselineHa": 2407,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37070",
+      "region": "경산시",
+      "province": "경북",
+      "crop": "대파",
+      "group": "양념채소",
+      "baselineHa": 328,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37070",
+      "region": "경산시",
+      "province": "경북",
+      "crop": "생강",
+      "group": "양념채소",
+      "baselineHa": 1840,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37070",
+      "region": "경산시",
+      "province": "경북",
+      "crop": "토마토",
+      "group": "과채류",
+      "baselineHa": 2232,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38010",
+      "region": "창녕군",
+      "province": "경남",
+      "crop": "시금치",
+      "group": "엽채류",
+      "baselineHa": 3320,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38010",
+      "region": "창녕군",
+      "province": "경남",
+      "crop": "대파",
+      "group": "양념채소",
+      "baselineHa": 1158,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38020",
+      "region": "남해군",
+      "province": "경남",
+      "crop": "시금치",
+      "group": "엽채류",
+      "baselineHa": 1680,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38020",
+      "region": "남해군",
+      "province": "경남",
+      "crop": "양배추",
+      "group": "엽채류",
+      "baselineHa": 416,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38020",
+      "region": "남해군",
+      "province": "경남",
+      "crop": "당근",
+      "group": "근채류",
+      "baselineHa": 445,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38030",
+      "region": "합천군",
+      "province": "경남",
+      "crop": "상추",
+      "group": "엽채류",
+      "baselineHa": 1078,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38040",
+      "region": "밀양시",
+      "province": "경남",
+      "crop": "무",
+      "group": "근채류",
+      "baselineHa": 3061,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38040",
+      "region": "밀양시",
+      "province": "경남",
+      "crop": "당근",
+      "group": "근채류",
+      "baselineHa": 1482,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38040",
+      "region": "밀양시",
+      "province": "경남",
+      "crop": "생강",
+      "group": "양념채소",
+      "baselineHa": 1693,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38050",
+      "region": "진주시",
+      "province": "경남",
+      "crop": "무",
+      "group": "근채류",
+      "baselineHa": 2801,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38050",
+      "region": "진주시",
+      "province": "경남",
+      "crop": "생강",
+      "group": "양념채소",
+      "baselineHa": 765,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38060",
+      "region": "거창군",
+      "province": "경남",
+      "crop": "시금치",
+      "group": "엽채류",
+      "baselineHa": 1920,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38060",
+      "region": "거창군",
+      "province": "경남",
+      "crop": "토마토",
+      "group": "과채류",
+      "baselineHa": 1729,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38060",
+      "region": "거창군",
+      "province": "경남",
+      "crop": "호박",
+      "group": "과채류",
+      "baselineHa": 2406,
+      "isDemoScenario": false
+    },
+    {
+      "code": "39010",
+      "region": "제주시",
+      "province": "제주",
+      "crop": "대파",
+      "group": "양념채소",
+      "baselineHa": 2159,
+      "isDemoScenario": false
+    },
+    {
+      "code": "39010",
+      "region": "제주시",
+      "province": "제주",
+      "crop": "토마토",
+      "group": "과채류",
+      "baselineHa": 2505,
+      "isDemoScenario": false
+    },
+    {
+      "code": "39010",
+      "region": "제주시",
+      "province": "제주",
+      "crop": "오이",
+      "group": "과채류",
+      "baselineHa": 2188,
+      "isDemoScenario": false
+    },
+    {
+      "code": "39020",
+      "region": "서귀포시",
+      "province": "제주",
+      "crop": "상추",
+      "group": "엽채류",
+      "baselineHa": 1613,
+      "isDemoScenario": false
+    },
+    {
+      "code": "39020",
+      "region": "서귀포시",
+      "province": "제주",
+      "crop": "시금치",
+      "group": "엽채류",
+      "baselineHa": 3061,
+      "isDemoScenario": false
+    },
+    {
+      "code": "39020",
+      "region": "서귀포시",
+      "province": "제주",
+      "crop": "무",
+      "group": "근채류",
+      "baselineHa": 619,
+      "isDemoScenario": false
+    },
+    {
+      "code": "39020",
+      "region": "서귀포시",
+      "province": "제주",
+      "crop": "생강",
+      "group": "양념채소",
+      "baselineHa": 3100,
+      "isDemoScenario": false
+    },
+    {
+      "code": "39020",
+      "region": "서귀포시",
+      "province": "제주",
+      "crop": "오이",
+      "group": "과채류",
+      "baselineHa": 2673,
+      "isDemoScenario": false
+    },
+    {
+      "code": "41010",
+      "region": "달성군",
+      "province": "대구",
+      "crop": "시금치",
+      "group": "엽채류",
+      "baselineHa": 2863,
+      "isDemoScenario": false
+    },
+    {
+      "code": "41010",
+      "region": "달성군",
+      "province": "대구",
+      "crop": "생강",
+      "group": "양념채소",
+      "baselineHa": 2161,
+      "isDemoScenario": false
+    },
+    {
+      "code": "42010",
+      "region": "울주군",
+      "province": "울산",
+      "crop": "상추",
+      "group": "엽채류",
+      "baselineHa": 729,
+      "isDemoScenario": false
+    },
+    {
+      "code": "42010",
+      "region": "울주군",
+      "province": "울산",
+      "crop": "양배추",
+      "group": "엽채류",
+      "baselineHa": 3165,
+      "isDemoScenario": false
+    },
+    {
+      "code": "42010",
+      "region": "울주군",
+      "province": "울산",
+      "crop": "고구마",
+      "group": "근채류",
+      "baselineHa": 696,
+      "isDemoScenario": false
+    },
+    {
+      "code": "42010",
+      "region": "울주군",
+      "province": "울산",
+      "crop": "생강",
+      "group": "양념채소",
+      "baselineHa": 2540,
+      "isDemoScenario": false
+    },
+    {
+      "code": "42010",
+      "region": "울주군",
+      "province": "울산",
+      "crop": "호박",
+      "group": "과채류",
+      "baselineHa": 808,
+      "isDemoScenario": false
+    },
+    {
+      "code": "43010",
+      "region": "광산구",
+      "province": "광주",
+      "crop": "당근",
+      "group": "근채류",
+      "baselineHa": 3211,
+      "isDemoScenario": false
+    },
+    {
+      "code": "43010",
+      "region": "광산구",
+      "province": "광주",
+      "crop": "생강",
+      "group": "양념채소",
+      "baselineHa": 2836,
+      "isDemoScenario": false
+    },
+    {
+      "code": "43010",
+      "region": "광산구",
+      "province": "광주",
+      "crop": "토마토",
+      "group": "과채류",
+      "baselineHa": 1075,
+      "isDemoScenario": false
+    },
+    {
+      "code": "43010",
+      "region": "광산구",
+      "province": "광주",
+      "crop": "감귤",
+      "group": "과수",
+      "baselineHa": 2721,
+      "isDemoScenario": false
+    },
+    {
+      "code": "44010",
+      "region": "유성구",
+      "province": "대전",
+      "crop": "상추",
+      "group": "엽채류",
+      "baselineHa": 3377,
+      "isDemoScenario": false
+    },
+    {
+      "code": "44010",
+      "region": "유성구",
+      "province": "대전",
+      "crop": "대파",
+      "group": "양념채소",
+      "baselineHa": 3238,
+      "isDemoScenario": false
+    },
+    {
+      "code": "44010",
+      "region": "유성구",
+      "province": "대전",
+      "crop": "오이",
+      "group": "과채류",
+      "baselineHa": 2633,
+      "isDemoScenario": false
+    },
+    {
+      "code": "45010",
+      "region": "연기면",
+      "province": "세종",
+      "crop": "상추",
+      "group": "엽채류",
+      "baselineHa": 2207,
+      "isDemoScenario": false
+    },
+    {
+      "code": "45010",
+      "region": "연기면",
+      "province": "세종",
+      "crop": "시금치",
+      "group": "엽채류",
+      "baselineHa": 1281,
+      "isDemoScenario": false
+    },
+    {
+      "code": "45010",
+      "region": "연기면",
+      "province": "세종",
+      "crop": "양배추",
+      "group": "엽채류",
+      "baselineHa": 1594,
+      "isDemoScenario": false
+    },
+    {
+      "code": "45010",
+      "region": "연기면",
+      "province": "세종",
+      "crop": "고구마",
+      "group": "근채류",
+      "baselineHa": 3393,
+      "isDemoScenario": false
+    },
+    {
+      "code": "46010",
+      "region": "기장군",
+      "province": "부산",
+      "crop": "시금치",
+      "group": "엽채류",
+      "baselineHa": 3268,
+      "isDemoScenario": false
+    },
+    {
+      "code": "46010",
+      "region": "기장군",
+      "province": "부산",
+      "crop": "무",
+      "group": "근채류",
+      "baselineHa": 2786,
+      "isDemoScenario": false
+    },
+    {
+      "code": "46010",
+      "region": "기장군",
+      "province": "부산",
+      "crop": "당근",
+      "group": "근채류",
+      "baselineHa": 2319,
+      "isDemoScenario": false
+    },
+    {
+      "code": "46010",
+      "region": "기장군",
+      "province": "부산",
+      "crop": "고구마",
+      "group": "근채류",
+      "baselineHa": 1614,
+      "isDemoScenario": false
+    },
+    {
+      "code": "46010",
+      "region": "기장군",
+      "province": "부산",
+      "crop": "생강",
+      "group": "양념채소",
+      "baselineHa": 2822,
+      "isDemoScenario": false
+    },
+    {
+      "code": "11110",
+      "region": "종로구",
+      "province": "서울",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 6,
+      "isDemoScenario": false
+    },
+    {
+      "code": "46010",
+      "region": "기장군",
+      "province": "부산",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 33,
+      "isDemoScenario": false
+    },
+    {
+      "code": "41010",
+      "region": "달성군",
+      "province": "대구",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 94,
+      "isDemoScenario": false
+    },
+    {
+      "code": "23010",
+      "region": "강화군",
+      "province": "인천",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 80,
+      "isDemoScenario": false
+    },
+    {
+      "code": "43010",
+      "region": "광산구",
+      "province": "광주",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 43,
+      "isDemoScenario": false
+    },
+    {
+      "code": "44010",
+      "region": "유성구",
+      "province": "대전",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 34,
+      "isDemoScenario": false
+    },
+    {
+      "code": "42010",
+      "region": "울주군",
+      "province": "울산",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 101,
+      "isDemoScenario": false
+    },
+    {
+      "code": "45010",
+      "region": "연기면",
+      "province": "세종",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 65,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31040",
+      "region": "이천시",
+      "province": "경기",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 253,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31050",
+      "region": "안성시",
+      "province": "경기",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 253,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31060",
+      "region": "여주시",
+      "province": "경기",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 253,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31070",
+      "region": "포천시",
+      "province": "경기",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 253,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32010",
+      "region": "평창군",
+      "province": "강원",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 324,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32020",
+      "region": "홍천군",
+      "province": "강원",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 324,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32030",
+      "region": "횡성군",
+      "province": "강원",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 324,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32040",
+      "region": "정선군",
+      "province": "강원",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 324,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32050",
+      "region": "강릉시",
+      "province": "강원",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 324,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33010",
+      "region": "괴산군",
+      "province": "충북",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 520,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33020",
+      "region": "충주시",
+      "province": "충북",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 520,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33030",
+      "region": "단양군",
+      "province": "충북",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 520,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33040",
+      "region": "음성군",
+      "province": "충북",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 520,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34010",
+      "region": "아산시",
+      "province": "충남",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 232,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34020",
+      "region": "태안군",
+      "province": "충남",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 232,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34030",
+      "region": "서산시",
+      "province": "충남",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 232,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34040",
+      "region": "부여군",
+      "province": "충남",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 232,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34050",
+      "region": "논산시",
+      "province": "충남",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 232,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35010",
+      "region": "김제시",
+      "province": "전북",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 249,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35020",
+      "region": "고창군",
+      "province": "전북",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 249,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35030",
+      "region": "부안군",
+      "province": "전북",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 249,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35040",
+      "region": "정읍시",
+      "province": "전북",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 249,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35050",
+      "region": "남원시",
+      "province": "전북",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 249,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36010",
+      "region": "해남군",
+      "province": "전남",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 421,
+      "isDemoScenario": true
+    },
+    {
+      "code": "36020",
+      "region": "진도군",
+      "province": "전남",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 421,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36030",
+      "region": "무안군",
+      "province": "전남",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 421,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36040",
+      "region": "보성군",
+      "province": "전남",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 421,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36050",
+      "region": "고흥군",
+      "province": "전남",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 421,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36060",
+      "region": "나주시",
+      "province": "전남",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 421,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36070",
+      "region": "영암군",
+      "province": "전남",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 421,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37010",
+      "region": "의성군",
+      "province": "경북",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 313,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37020",
+      "region": "영양군",
+      "province": "경북",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 313,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37030",
+      "region": "안동시",
+      "province": "경북",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 313,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37040",
+      "region": "영주시",
+      "province": "경북",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 313,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37050",
+      "region": "상주시",
+      "province": "경북",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 313,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37060",
+      "region": "청송군",
+      "province": "경북",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 313,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37070",
+      "region": "경산시",
+      "province": "경북",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 313,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38010",
+      "region": "창녕군",
+      "province": "경남",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 78,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38020",
+      "region": "남해군",
+      "province": "경남",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 78,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38030",
+      "region": "합천군",
+      "province": "경남",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 78,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38040",
+      "region": "밀양시",
+      "province": "경남",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 78,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38050",
+      "region": "진주시",
+      "province": "경남",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 78,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38060",
+      "region": "거창군",
+      "province": "경남",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 78,
+      "isDemoScenario": false
+    },
+    {
+      "code": "39010",
+      "region": "제주시",
+      "province": "제주",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 1,
+      "isDemoScenario": false
+    },
+    {
+      "code": "39020",
+      "region": "서귀포시",
+      "province": "제주",
+      "crop": "배추",
+      "group": "엽채류",
+      "baselineHa": 1,
+      "isDemoScenario": false
+    },
+    {
+      "code": "11110",
+      "region": "종로구",
+      "province": "서울",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 1,
+      "isDemoScenario": false
+    },
+    {
+      "code": "46010",
+      "region": "기장군",
+      "province": "부산",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 22,
+      "isDemoScenario": false
+    },
+    {
+      "code": "41010",
+      "region": "달성군",
+      "province": "대구",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 711,
+      "isDemoScenario": false
+    },
+    {
+      "code": "23010",
+      "region": "강화군",
+      "province": "인천",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 21,
+      "isDemoScenario": false
+    },
+    {
+      "code": "43010",
+      "region": "광산구",
+      "province": "광주",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 42,
+      "isDemoScenario": false
+    },
+    {
+      "code": "44010",
+      "region": "유성구",
+      "province": "대전",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 17,
+      "isDemoScenario": false
+    },
+    {
+      "code": "42010",
+      "region": "울주군",
+      "province": "울산",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 34,
+      "isDemoScenario": false
+    },
+    {
+      "code": "45010",
+      "region": "연기면",
+      "province": "세종",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 12,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31040",
+      "region": "이천시",
+      "province": "경기",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 101,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31050",
+      "region": "안성시",
+      "province": "경기",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 101,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31060",
+      "region": "여주시",
+      "province": "경기",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 101,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31070",
+      "region": "포천시",
+      "province": "경기",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 101,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32010",
+      "region": "평창군",
+      "province": "강원",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 27,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32020",
+      "region": "홍천군",
+      "province": "강원",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 27,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32030",
+      "region": "횡성군",
+      "province": "강원",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 27,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32040",
+      "region": "정선군",
+      "province": "강원",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 27,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32050",
+      "region": "강릉시",
+      "province": "강원",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 27,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33010",
+      "region": "괴산군",
+      "province": "충북",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 21,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33020",
+      "region": "충주시",
+      "province": "충북",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 21,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33030",
+      "region": "단양군",
+      "province": "충북",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 21,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33040",
+      "region": "음성군",
+      "province": "충북",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 21,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34010",
+      "region": "아산시",
+      "province": "충남",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 214,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34020",
+      "region": "태안군",
+      "province": "충남",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 214,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34030",
+      "region": "서산시",
+      "province": "충남",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 214,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34040",
+      "region": "부여군",
+      "province": "충남",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 214,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34050",
+      "region": "논산시",
+      "province": "충남",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 214,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35010",
+      "region": "김제시",
+      "province": "전북",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 434,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35020",
+      "region": "고창군",
+      "province": "전북",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 434,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35030",
+      "region": "부안군",
+      "province": "전북",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 434,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35040",
+      "region": "정읍시",
+      "province": "전북",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 434,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35050",
+      "region": "남원시",
+      "province": "전북",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 434,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36010",
+      "region": "해남군",
+      "province": "전남",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 854,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36020",
+      "region": "진도군",
+      "province": "전남",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 854,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36030",
+      "region": "무안군",
+      "province": "전남",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 854,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36040",
+      "region": "보성군",
+      "province": "전남",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 854,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36050",
+      "region": "고흥군",
+      "province": "전남",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 854,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36060",
+      "region": "나주시",
+      "province": "전남",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 854,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36070",
+      "region": "영암군",
+      "province": "전남",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 854,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37010",
+      "region": "의성군",
+      "province": "경북",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 316,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37020",
+      "region": "영양군",
+      "province": "경북",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 316,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37030",
+      "region": "안동시",
+      "province": "경북",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 316,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37040",
+      "region": "영주시",
+      "province": "경북",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 316,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37050",
+      "region": "상주시",
+      "province": "경북",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 316,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37060",
+      "region": "청송군",
+      "province": "경북",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 316,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37070",
+      "region": "경산시",
+      "province": "경북",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 316,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38010",
+      "region": "창녕군",
+      "province": "경남",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 634,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38020",
+      "region": "남해군",
+      "province": "경남",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 634,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38030",
+      "region": "합천군",
+      "province": "경남",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 634,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38040",
+      "region": "밀양시",
+      "province": "경남",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 634,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38050",
+      "region": "진주시",
+      "province": "경남",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 634,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38060",
+      "region": "거창군",
+      "province": "경남",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 634,
+      "isDemoScenario": false
+    },
+    {
+      "code": "39010",
+      "region": "제주시",
+      "province": "제주",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 479,
+      "isDemoScenario": false
+    },
+    {
+      "code": "39020",
+      "region": "서귀포시",
+      "province": "제주",
+      "crop": "양파",
+      "group": "양념채소",
+      "baselineHa": 479,
+      "isDemoScenario": false
+    },
+    {
+      "code": "11110",
+      "region": "종로구",
+      "province": "서울",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 2,
+      "isDemoScenario": false
+    },
+    {
+      "code": "46010",
+      "region": "기장군",
+      "province": "부산",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 33,
+      "isDemoScenario": false
+    },
+    {
+      "code": "41010",
+      "region": "달성군",
+      "province": "대구",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 944,
+      "isDemoScenario": false
+    },
+    {
+      "code": "23010",
+      "region": "강화군",
+      "province": "인천",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 45,
+      "isDemoScenario": false
+    },
+    {
+      "code": "43010",
+      "region": "광산구",
+      "province": "광주",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 29,
+      "isDemoScenario": false
+    },
+    {
+      "code": "44010",
+      "region": "유성구",
+      "province": "대전",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 39,
+      "isDemoScenario": false
+    },
+    {
+      "code": "42010",
+      "region": "울주군",
+      "province": "울산",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 75,
+      "isDemoScenario": false
+    },
+    {
+      "code": "45010",
+      "region": "연기면",
+      "province": "세종",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 26,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31040",
+      "region": "이천시",
+      "province": "경기",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 189,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31050",
+      "region": "안성시",
+      "province": "경기",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 189,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31060",
+      "region": "여주시",
+      "province": "경기",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 189,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31070",
+      "region": "포천시",
+      "province": "경기",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 189,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32010",
+      "region": "평창군",
+      "province": "강원",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 52,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32020",
+      "region": "홍천군",
+      "province": "강원",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 52,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32030",
+      "region": "횡성군",
+      "province": "강원",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 52,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32040",
+      "region": "정선군",
+      "province": "강원",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 52,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32050",
+      "region": "강릉시",
+      "province": "강원",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 52,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33010",
+      "region": "괴산군",
+      "province": "충북",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 184,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33020",
+      "region": "충주시",
+      "province": "충북",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 184,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33030",
+      "region": "단양군",
+      "province": "충북",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 184,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33040",
+      "region": "음성군",
+      "province": "충북",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 184,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34010",
+      "region": "아산시",
+      "province": "충남",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 721,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34020",
+      "region": "태안군",
+      "province": "충남",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 721,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34030",
+      "region": "서산시",
+      "province": "충남",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 721,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34040",
+      "region": "부여군",
+      "province": "충남",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 721,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34050",
+      "region": "논산시",
+      "province": "충남",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 721,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35010",
+      "region": "김제시",
+      "province": "전북",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 136,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35020",
+      "region": "고창군",
+      "province": "전북",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 136,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35030",
+      "region": "부안군",
+      "province": "전북",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 136,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35040",
+      "region": "정읍시",
+      "province": "전북",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 136,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35050",
+      "region": "남원시",
+      "province": "전북",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 136,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36010",
+      "region": "해남군",
+      "province": "전남",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 413,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36020",
+      "region": "진도군",
+      "province": "전남",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 413,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36030",
+      "region": "무안군",
+      "province": "전남",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 413,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36040",
+      "region": "보성군",
+      "province": "전남",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 413,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36050",
+      "region": "고흥군",
+      "province": "전남",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 413,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36060",
+      "region": "나주시",
+      "province": "전남",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 413,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36070",
+      "region": "영암군",
+      "province": "전남",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 413,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37010",
+      "region": "의성군",
+      "province": "경북",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 663,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37020",
+      "region": "영양군",
+      "province": "경북",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 663,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37030",
+      "region": "안동시",
+      "province": "경북",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 663,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37040",
+      "region": "영주시",
+      "province": "경북",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 663,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37050",
+      "region": "상주시",
+      "province": "경북",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 663,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37060",
+      "region": "청송군",
+      "province": "경북",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 663,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37070",
+      "region": "경산시",
+      "province": "경북",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 663,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38010",
+      "region": "창녕군",
+      "province": "경남",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 1221,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38020",
+      "region": "남해군",
+      "province": "경남",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 1221,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38030",
+      "region": "합천군",
+      "province": "경남",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 1221,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38040",
+      "region": "밀양시",
+      "province": "경남",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 1221,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38050",
+      "region": "진주시",
+      "province": "경남",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 1221,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38060",
+      "region": "거창군",
+      "province": "경남",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 1221,
+      "isDemoScenario": false
+    },
+    {
+      "code": "39010",
+      "region": "제주시",
+      "province": "제주",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 430,
+      "isDemoScenario": false
+    },
+    {
+      "code": "39020",
+      "region": "서귀포시",
+      "province": "제주",
+      "crop": "마늘",
+      "group": "양념채소",
+      "baselineHa": 430,
+      "isDemoScenario": false
+    },
+    {
+      "code": "11110",
+      "region": "종로구",
+      "province": "서울",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 13,
+      "isDemoScenario": false
+    },
+    {
+      "code": "46010",
+      "region": "기장군",
+      "province": "부산",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 50,
+      "isDemoScenario": false
+    },
+    {
+      "code": "41010",
+      "region": "달성군",
+      "province": "대구",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 196,
+      "isDemoScenario": false
+    },
+    {
+      "code": "23010",
+      "region": "강화군",
+      "province": "인천",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 306,
+      "isDemoScenario": false
+    },
+    {
+      "code": "43010",
+      "region": "광산구",
+      "province": "광주",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 41,
+      "isDemoScenario": false
+    },
+    {
+      "code": "44010",
+      "region": "유성구",
+      "province": "대전",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 72,
+      "isDemoScenario": false
+    },
+    {
+      "code": "42010",
+      "region": "울주군",
+      "province": "울산",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 152,
+      "isDemoScenario": false
+    },
+    {
+      "code": "45010",
+      "region": "연기면",
+      "province": "세종",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 91,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31040",
+      "region": "이천시",
+      "province": "경기",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 482,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31050",
+      "region": "안성시",
+      "province": "경기",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 482,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31060",
+      "region": "여주시",
+      "province": "경기",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 482,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31070",
+      "region": "포천시",
+      "province": "경기",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 482,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32010",
+      "region": "평창군",
+      "province": "강원",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 410,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32020",
+      "region": "홍천군",
+      "province": "강원",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 410,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32030",
+      "region": "횡성군",
+      "province": "강원",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 410,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32040",
+      "region": "정선군",
+      "province": "강원",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 410,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32050",
+      "region": "강릉시",
+      "province": "강원",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 410,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33010",
+      "region": "괴산군",
+      "province": "충북",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 598,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33020",
+      "region": "충주시",
+      "province": "충북",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 598,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33030",
+      "region": "단양군",
+      "province": "충북",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 598,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33040",
+      "region": "음성군",
+      "province": "충북",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 598,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34010",
+      "region": "아산시",
+      "province": "충남",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 523,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34020",
+      "region": "태안군",
+      "province": "충남",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 523,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34030",
+      "region": "서산시",
+      "province": "충남",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 523,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34040",
+      "region": "부여군",
+      "province": "충남",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 523,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34050",
+      "region": "논산시",
+      "province": "충남",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 523,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35010",
+      "region": "김제시",
+      "province": "전북",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 573,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35020",
+      "region": "고창군",
+      "province": "전북",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 573,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35030",
+      "region": "부안군",
+      "province": "전북",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 573,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35040",
+      "region": "정읍시",
+      "province": "전북",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 573,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35050",
+      "region": "남원시",
+      "province": "전북",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 573,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36010",
+      "region": "해남군",
+      "province": "전남",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 547,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36020",
+      "region": "진도군",
+      "province": "전남",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 547,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36030",
+      "region": "무안군",
+      "province": "전남",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 547,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36040",
+      "region": "보성군",
+      "province": "전남",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 547,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36050",
+      "region": "고흥군",
+      "province": "전남",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 547,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36060",
+      "region": "나주시",
+      "province": "전남",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 547,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36070",
+      "region": "영암군",
+      "province": "전남",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 547,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37010",
+      "region": "의성군",
+      "province": "경북",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 1051,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37020",
+      "region": "영양군",
+      "province": "경북",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 1051,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37030",
+      "region": "안동시",
+      "province": "경북",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 1051,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37040",
+      "region": "영주시",
+      "province": "경북",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 1051,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37050",
+      "region": "상주시",
+      "province": "경북",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 1051,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37060",
+      "region": "청송군",
+      "province": "경북",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 1051,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37070",
+      "region": "경산시",
+      "province": "경북",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 1051,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38010",
+      "region": "창녕군",
+      "province": "경남",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 288,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38020",
+      "region": "남해군",
+      "province": "경남",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 288,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38030",
+      "region": "합천군",
+      "province": "경남",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 288,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38040",
+      "region": "밀양시",
+      "province": "경남",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 288,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38050",
+      "region": "진주시",
+      "province": "경남",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 288,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38060",
+      "region": "거창군",
+      "province": "경남",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 288,
+      "isDemoScenario": false
+    },
+    {
+      "code": "39010",
+      "region": "제주시",
+      "province": "제주",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 32,
+      "isDemoScenario": false
+    },
+    {
+      "code": "39020",
+      "region": "서귀포시",
+      "province": "제주",
+      "crop": "고추",
+      "group": "양념채소",
+      "baselineHa": 32,
+      "isDemoScenario": false
+    },
+    {
+      "code": "11110",
+      "region": "종로구",
+      "province": "서울",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 8,
+      "isDemoScenario": false
+    },
+    {
+      "code": "46010",
+      "region": "기장군",
+      "province": "부산",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 31,
+      "isDemoScenario": false
+    },
+    {
+      "code": "41010",
+      "region": "달성군",
+      "province": "대구",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 256,
+      "isDemoScenario": false
+    },
+    {
+      "code": "23010",
+      "region": "강화군",
+      "province": "인천",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 149,
+      "isDemoScenario": false
+    },
+    {
+      "code": "43010",
+      "region": "광산구",
+      "province": "광주",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 13,
+      "isDemoScenario": false
+    },
+    {
+      "code": "44010",
+      "region": "유성구",
+      "province": "대전",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 44,
+      "isDemoScenario": false
+    },
+    {
+      "code": "42010",
+      "region": "울주군",
+      "province": "울산",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 95,
+      "isDemoScenario": false
+    },
+    {
+      "code": "45010",
+      "region": "연기면",
+      "province": "세종",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 67,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31040",
+      "region": "이천시",
+      "province": "경기",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 345,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31050",
+      "region": "안성시",
+      "province": "경기",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 345,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31060",
+      "region": "여주시",
+      "province": "경기",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 345,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31070",
+      "region": "포천시",
+      "province": "경기",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 345,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32010",
+      "region": "평창군",
+      "province": "강원",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 1070,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32020",
+      "region": "홍천군",
+      "province": "강원",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 1070,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32030",
+      "region": "횡성군",
+      "province": "강원",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 1070,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32040",
+      "region": "정선군",
+      "province": "강원",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 1070,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32050",
+      "region": "강릉시",
+      "province": "강원",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 1070,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33010",
+      "region": "괴산군",
+      "province": "충북",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 282,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33020",
+      "region": "충주시",
+      "province": "충북",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 282,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33030",
+      "region": "단양군",
+      "province": "충북",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 282,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33040",
+      "region": "음성군",
+      "province": "충북",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 282,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34010",
+      "region": "아산시",
+      "province": "충남",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 504,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34020",
+      "region": "태안군",
+      "province": "충남",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 504,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34030",
+      "region": "서산시",
+      "province": "충남",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 504,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34040",
+      "region": "부여군",
+      "province": "충남",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 504,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34050",
+      "region": "논산시",
+      "province": "충남",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 504,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35010",
+      "region": "김제시",
+      "province": "전북",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 154,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35020",
+      "region": "고창군",
+      "province": "전북",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 154,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35030",
+      "region": "부안군",
+      "province": "전북",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 154,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35040",
+      "region": "정읍시",
+      "province": "전북",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 154,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35050",
+      "region": "남원시",
+      "province": "전북",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 154,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36010",
+      "region": "해남군",
+      "province": "전남",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 273,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36020",
+      "region": "진도군",
+      "province": "전남",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 273,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36030",
+      "region": "무안군",
+      "province": "전남",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 273,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36040",
+      "region": "보성군",
+      "province": "전남",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 273,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36050",
+      "region": "고흥군",
+      "province": "전남",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 273,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36060",
+      "region": "나주시",
+      "province": "전남",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 273,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36070",
+      "region": "영암군",
+      "province": "전남",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 273,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37010",
+      "region": "의성군",
+      "province": "경북",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 391,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37020",
+      "region": "영양군",
+      "province": "경북",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 391,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37030",
+      "region": "안동시",
+      "province": "경북",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 391,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37040",
+      "region": "영주시",
+      "province": "경북",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 391,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37050",
+      "region": "상주시",
+      "province": "경북",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 391,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37060",
+      "region": "청송군",
+      "province": "경북",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 391,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37070",
+      "region": "경산시",
+      "province": "경북",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 391,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38010",
+      "region": "창녕군",
+      "province": "경남",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 233,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38020",
+      "region": "남해군",
+      "province": "경남",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 233,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38030",
+      "region": "합천군",
+      "province": "경남",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 233,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38040",
+      "region": "밀양시",
+      "province": "경남",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 233,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38050",
+      "region": "진주시",
+      "province": "경남",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 233,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38060",
+      "region": "거창군",
+      "province": "경남",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 233,
+      "isDemoScenario": false
+    },
+    {
+      "code": "39010",
+      "region": "제주시",
+      "province": "제주",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 340,
+      "isDemoScenario": false
+    },
+    {
+      "code": "39020",
+      "region": "서귀포시",
+      "province": "제주",
+      "crop": "감자",
+      "group": "근채류",
+      "baselineHa": 340,
+      "isDemoScenario": false
+    },
+    {
+      "code": "46010",
+      "region": "기장군",
+      "province": "부산",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 2,
+      "isDemoScenario": false
+    },
+    {
+      "code": "41010",
+      "region": "달성군",
+      "province": "대구",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 310,
+      "isDemoScenario": false
+    },
+    {
+      "code": "23010",
+      "region": "강화군",
+      "province": "인천",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 7,
+      "isDemoScenario": false
+    },
+    {
+      "code": "43010",
+      "region": "광산구",
+      "province": "광주",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 3,
+      "isDemoScenario": false
+    },
+    {
+      "code": "44010",
+      "region": "유성구",
+      "province": "대전",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 15,
+      "isDemoScenario": false
+    },
+    {
+      "code": "42010",
+      "region": "울주군",
+      "province": "울산",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 17,
+      "isDemoScenario": false
+    },
+    {
+      "code": "45010",
+      "region": "연기면",
+      "province": "세종",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 14,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31040",
+      "region": "이천시",
+      "province": "경기",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 81,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31050",
+      "region": "안성시",
+      "province": "경기",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 81,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31060",
+      "region": "여주시",
+      "province": "경기",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 81,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31070",
+      "region": "포천시",
+      "province": "경기",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 81,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32010",
+      "region": "평창군",
+      "province": "강원",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 256,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32020",
+      "region": "홍천군",
+      "province": "강원",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 256,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32030",
+      "region": "횡성군",
+      "province": "강원",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 256,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32040",
+      "region": "정선군",
+      "province": "강원",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 256,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32050",
+      "region": "강릉시",
+      "province": "강원",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 256,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33010",
+      "region": "괴산군",
+      "province": "충북",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 581,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33020",
+      "region": "충주시",
+      "province": "충북",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 581,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33030",
+      "region": "단양군",
+      "province": "충북",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 581,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33040",
+      "region": "음성군",
+      "province": "충북",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 581,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34010",
+      "region": "아산시",
+      "province": "충남",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 187,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34020",
+      "region": "태안군",
+      "province": "충남",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 187,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34030",
+      "region": "서산시",
+      "province": "충남",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 187,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34040",
+      "region": "부여군",
+      "province": "충남",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 187,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34050",
+      "region": "논산시",
+      "province": "충남",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 187,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35010",
+      "region": "김제시",
+      "province": "전북",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 313,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35020",
+      "region": "고창군",
+      "province": "전북",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 313,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35030",
+      "region": "부안군",
+      "province": "전북",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 313,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35040",
+      "region": "정읍시",
+      "province": "전북",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 313,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35050",
+      "region": "남원시",
+      "province": "전북",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 313,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36010",
+      "region": "해남군",
+      "province": "전남",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 19,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36020",
+      "region": "진도군",
+      "province": "전남",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 19,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36030",
+      "region": "무안군",
+      "province": "전남",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 19,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36040",
+      "region": "보성군",
+      "province": "전남",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 19,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36050",
+      "region": "고흥군",
+      "province": "전남",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 19,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36060",
+      "region": "나주시",
+      "province": "전남",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 19,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36070",
+      "region": "영암군",
+      "province": "전남",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 19,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37010",
+      "region": "의성군",
+      "province": "경북",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 1954,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37020",
+      "region": "영양군",
+      "province": "경북",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 1954,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37030",
+      "region": "안동시",
+      "province": "경북",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 1954,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37040",
+      "region": "영주시",
+      "province": "경북",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 1954,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37050",
+      "region": "상주시",
+      "province": "경북",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 1954,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37060",
+      "region": "청송군",
+      "province": "경북",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 1954,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37070",
+      "region": "경산시",
+      "province": "경북",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 1954,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38010",
+      "region": "창녕군",
+      "province": "경남",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 428,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38020",
+      "region": "남해군",
+      "province": "경남",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 428,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38030",
+      "region": "합천군",
+      "province": "경남",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 428,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38040",
+      "region": "밀양시",
+      "province": "경남",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 428,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38050",
+      "region": "진주시",
+      "province": "경남",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 428,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38060",
+      "region": "거창군",
+      "province": "경남",
+      "crop": "사과",
+      "group": "과수",
+      "baselineHa": 428,
+      "isDemoScenario": false
+    },
+    {
+      "code": "11110",
+      "region": "종로구",
+      "province": "서울",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 5,
+      "isDemoScenario": false
+    },
+    {
+      "code": "46010",
+      "region": "기장군",
+      "province": "부산",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 16,
+      "isDemoScenario": false
+    },
+    {
+      "code": "41010",
+      "region": "달성군",
+      "province": "대구",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 10,
+      "isDemoScenario": false
+    },
+    {
+      "code": "23010",
+      "region": "강화군",
+      "province": "인천",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 25,
+      "isDemoScenario": false
+    },
+    {
+      "code": "43010",
+      "region": "광산구",
+      "province": "광주",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 3,
+      "isDemoScenario": false
+    },
+    {
+      "code": "44010",
+      "region": "유성구",
+      "province": "대전",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 38,
+      "isDemoScenario": false
+    },
+    {
+      "code": "42010",
+      "region": "울주군",
+      "province": "울산",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 364,
+      "isDemoScenario": false
+    },
+    {
+      "code": "45010",
+      "region": "연기면",
+      "province": "세종",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 73,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31040",
+      "region": "이천시",
+      "province": "경기",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 313,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31050",
+      "region": "안성시",
+      "province": "경기",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 313,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31060",
+      "region": "여주시",
+      "province": "경기",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 313,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31070",
+      "region": "포천시",
+      "province": "경기",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 313,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32010",
+      "region": "평창군",
+      "province": "강원",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 14,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32020",
+      "region": "홍천군",
+      "province": "강원",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 14,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32030",
+      "region": "횡성군",
+      "province": "강원",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 14,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32040",
+      "region": "정선군",
+      "province": "강원",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 14,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32050",
+      "region": "강릉시",
+      "province": "강원",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 14,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33010",
+      "region": "괴산군",
+      "province": "충북",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 33,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33020",
+      "region": "충주시",
+      "province": "충북",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 33,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33030",
+      "region": "단양군",
+      "province": "충북",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 33,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33040",
+      "region": "음성군",
+      "province": "충북",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 33,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34010",
+      "region": "아산시",
+      "province": "충남",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 373,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34020",
+      "region": "태안군",
+      "province": "충남",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 373,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34030",
+      "region": "서산시",
+      "province": "충남",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 373,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34040",
+      "region": "부여군",
+      "province": "충남",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 373,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34050",
+      "region": "논산시",
+      "province": "충남",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 373,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35010",
+      "region": "김제시",
+      "province": "전북",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 167,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35020",
+      "region": "고창군",
+      "province": "전북",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 167,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35030",
+      "region": "부안군",
+      "province": "전북",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 167,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35040",
+      "region": "정읍시",
+      "province": "전북",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 167,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35050",
+      "region": "남원시",
+      "province": "전북",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 167,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36010",
+      "region": "해남군",
+      "province": "전남",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 340,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36020",
+      "region": "진도군",
+      "province": "전남",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 340,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36030",
+      "region": "무안군",
+      "province": "전남",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 340,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36040",
+      "region": "보성군",
+      "province": "전남",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 340,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36050",
+      "region": "고흥군",
+      "province": "전남",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 340,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36060",
+      "region": "나주시",
+      "province": "전남",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 340,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36070",
+      "region": "영암군",
+      "province": "전남",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 340,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37010",
+      "region": "의성군",
+      "province": "경북",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 128,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37020",
+      "region": "영양군",
+      "province": "경북",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 128,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37030",
+      "region": "안동시",
+      "province": "경북",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 128,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37040",
+      "region": "영주시",
+      "province": "경북",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 128,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37050",
+      "region": "상주시",
+      "province": "경북",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 128,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37060",
+      "region": "청송군",
+      "province": "경북",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 128,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37070",
+      "region": "경산시",
+      "province": "경북",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 128,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38010",
+      "region": "창녕군",
+      "province": "경남",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 61,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38020",
+      "region": "남해군",
+      "province": "경남",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 61,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38030",
+      "region": "합천군",
+      "province": "경남",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 61,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38040",
+      "region": "밀양시",
+      "province": "경남",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 61,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38050",
+      "region": "진주시",
+      "province": "경남",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 61,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38060",
+      "region": "거창군",
+      "province": "경남",
+      "crop": "배",
+      "group": "과수",
+      "baselineHa": 61,
+      "isDemoScenario": false
+    },
+    {
+      "code": "11110",
+      "region": "종로구",
+      "province": "서울",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 2,
+      "isDemoScenario": false
+    },
+    {
+      "code": "46010",
+      "region": "기장군",
+      "province": "부산",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 22,
+      "isDemoScenario": false
+    },
+    {
+      "code": "41010",
+      "region": "달성군",
+      "province": "대구",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 215,
+      "isDemoScenario": false
+    },
+    {
+      "code": "23010",
+      "region": "강화군",
+      "province": "인천",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 432,
+      "isDemoScenario": false
+    },
+    {
+      "code": "43010",
+      "region": "광산구",
+      "province": "광주",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 163,
+      "isDemoScenario": false
+    },
+    {
+      "code": "44010",
+      "region": "유성구",
+      "province": "대전",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 51,
+      "isDemoScenario": false
+    },
+    {
+      "code": "42010",
+      "region": "울주군",
+      "province": "울산",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 75,
+      "isDemoScenario": false
+    },
+    {
+      "code": "45010",
+      "region": "연기면",
+      "province": "세종",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 191,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31040",
+      "region": "이천시",
+      "province": "경기",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 1248,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31050",
+      "region": "안성시",
+      "province": "경기",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 1248,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31060",
+      "region": "여주시",
+      "province": "경기",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 1248,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31070",
+      "region": "포천시",
+      "province": "경기",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 1248,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32010",
+      "region": "평창군",
+      "province": "강원",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 867,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32020",
+      "region": "홍천군",
+      "province": "강원",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 867,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32030",
+      "region": "횡성군",
+      "province": "강원",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 867,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32040",
+      "region": "정선군",
+      "province": "강원",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 867,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32050",
+      "region": "강릉시",
+      "province": "강원",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 867,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33010",
+      "region": "괴산군",
+      "province": "충북",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 1703,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33020",
+      "region": "충주시",
+      "province": "충북",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 1703,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33030",
+      "region": "단양군",
+      "province": "충북",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 1703,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33040",
+      "region": "음성군",
+      "province": "충북",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 1703,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34010",
+      "region": "아산시",
+      "province": "충남",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 1742,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34020",
+      "region": "태안군",
+      "province": "충남",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 1742,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34030",
+      "region": "서산시",
+      "province": "충남",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 1742,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34040",
+      "region": "부여군",
+      "province": "충남",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 1742,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34050",
+      "region": "논산시",
+      "province": "충남",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 1742,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35010",
+      "region": "김제시",
+      "province": "전북",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 4375,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35020",
+      "region": "고창군",
+      "province": "전북",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 4375,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35030",
+      "region": "부안군",
+      "province": "전북",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 4375,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35040",
+      "region": "정읍시",
+      "province": "전북",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 4375,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35050",
+      "region": "남원시",
+      "province": "전북",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 4375,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36010",
+      "region": "해남군",
+      "province": "전남",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 1257,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36020",
+      "region": "진도군",
+      "province": "전남",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 1257,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36030",
+      "region": "무안군",
+      "province": "전남",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 1257,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36040",
+      "region": "보성군",
+      "province": "전남",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 1257,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36050",
+      "region": "고흥군",
+      "province": "전남",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 1257,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36060",
+      "region": "나주시",
+      "province": "전남",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 1257,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36070",
+      "region": "영암군",
+      "province": "전남",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 1257,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37010",
+      "region": "의성군",
+      "province": "경북",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 1573,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37020",
+      "region": "영양군",
+      "province": "경북",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 1573,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37030",
+      "region": "안동시",
+      "province": "경북",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 1573,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37040",
+      "region": "영주시",
+      "province": "경북",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 1573,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37050",
+      "region": "상주시",
+      "province": "경북",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 1573,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37060",
+      "region": "청송군",
+      "province": "경북",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 1573,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37070",
+      "region": "경산시",
+      "province": "경북",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 1573,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38010",
+      "region": "창녕군",
+      "province": "경남",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 494,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38020",
+      "region": "남해군",
+      "province": "경남",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 494,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38030",
+      "region": "합천군",
+      "province": "경남",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 494,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38040",
+      "region": "밀양시",
+      "province": "경남",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 494,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38050",
+      "region": "진주시",
+      "province": "경남",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 494,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38060",
+      "region": "거창군",
+      "province": "경남",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 494,
+      "isDemoScenario": false
+    },
+    {
+      "code": "39010",
+      "region": "제주시",
+      "province": "제주",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 1683,
+      "isDemoScenario": false
+    },
+    {
+      "code": "39020",
+      "region": "서귀포시",
+      "province": "제주",
+      "crop": "콩",
+      "group": "곡물",
+      "baselineHa": 1683,
+      "isDemoScenario": false
+    },
+    {
+      "code": "11110",
+      "region": "종로구",
+      "province": "서울",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 176,
+      "isDemoScenario": false
+    },
+    {
+      "code": "46010",
+      "region": "기장군",
+      "province": "부산",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 1875,
+      "isDemoScenario": false
+    },
+    {
+      "code": "41010",
+      "region": "달성군",
+      "province": "대구",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 5171,
+      "isDemoScenario": false
+    },
+    {
+      "code": "23010",
+      "region": "강화군",
+      "province": "인천",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 11146,
+      "isDemoScenario": false
+    },
+    {
+      "code": "43010",
+      "region": "광산구",
+      "province": "광주",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 4777,
+      "isDemoScenario": false
+    },
+    {
+      "code": "44010",
+      "region": "유성구",
+      "province": "대전",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 1059,
+      "isDemoScenario": false
+    },
+    {
+      "code": "42010",
+      "region": "울주군",
+      "province": "울산",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 3349,
+      "isDemoScenario": false
+    },
+    {
+      "code": "45010",
+      "region": "연기면",
+      "province": "세종",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 3140,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31040",
+      "region": "이천시",
+      "province": "경기",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 18072,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31050",
+      "region": "안성시",
+      "province": "경기",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 18072,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31060",
+      "region": "여주시",
+      "province": "경기",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 18072,
+      "isDemoScenario": false
+    },
+    {
+      "code": "31070",
+      "region": "포천시",
+      "province": "경기",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 18072,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32010",
+      "region": "평창군",
+      "province": "강원",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 5423,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32020",
+      "region": "홍천군",
+      "province": "강원",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 5423,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32030",
+      "region": "횡성군",
+      "province": "강원",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 5423,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32040",
+      "region": "정선군",
+      "province": "강원",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 5423,
+      "isDemoScenario": false
+    },
+    {
+      "code": "32050",
+      "region": "강릉시",
+      "province": "강원",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 5423,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33010",
+      "region": "괴산군",
+      "province": "충북",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 8031,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33020",
+      "region": "충주시",
+      "province": "충북",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 8031,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33030",
+      "region": "단양군",
+      "province": "충북",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 8031,
+      "isDemoScenario": false
+    },
+    {
+      "code": "33040",
+      "region": "음성군",
+      "province": "충북",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 8031,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34010",
+      "region": "아산시",
+      "province": "충남",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 25054,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34020",
+      "region": "태안군",
+      "province": "충남",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 25054,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34030",
+      "region": "서산시",
+      "province": "충남",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 25054,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34040",
+      "region": "부여군",
+      "province": "충남",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 25054,
+      "isDemoScenario": false
+    },
+    {
+      "code": "34050",
+      "region": "논산시",
+      "province": "충남",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 25054,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35010",
+      "region": "김제시",
+      "province": "전북",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 20144,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35020",
+      "region": "고창군",
+      "province": "전북",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 20144,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35030",
+      "region": "부안군",
+      "province": "전북",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 20144,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35040",
+      "region": "정읍시",
+      "province": "전북",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 20144,
+      "isDemoScenario": false
+    },
+    {
+      "code": "35050",
+      "region": "남원시",
+      "province": "전북",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 20144,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36010",
+      "region": "해남군",
+      "province": "전남",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 20349,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36020",
+      "region": "진도군",
+      "province": "전남",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 20349,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36030",
+      "region": "무안군",
+      "province": "전남",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 20349,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36040",
+      "region": "보성군",
+      "province": "전남",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 20349,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36050",
+      "region": "고흥군",
+      "province": "전남",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 20349,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36060",
+      "region": "나주시",
+      "province": "전남",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 20349,
+      "isDemoScenario": false
+    },
+    {
+      "code": "36070",
+      "region": "영암군",
+      "province": "전남",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 20349,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37010",
+      "region": "의성군",
+      "province": "경북",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 12374,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37020",
+      "region": "영양군",
+      "province": "경북",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 12374,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37030",
+      "region": "안동시",
+      "province": "경북",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 12374,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37040",
+      "region": "영주시",
+      "province": "경북",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 12374,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37050",
+      "region": "상주시",
+      "province": "경북",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 12374,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37060",
+      "region": "청송군",
+      "province": "경북",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 12374,
+      "isDemoScenario": false
+    },
+    {
+      "code": "37070",
+      "region": "경산시",
+      "province": "경북",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 12374,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38010",
+      "region": "창녕군",
+      "province": "경남",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 10038,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38020",
+      "region": "남해군",
+      "province": "경남",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 10038,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38030",
+      "region": "합천군",
+      "province": "경남",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 10038,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38040",
+      "region": "밀양시",
+      "province": "경남",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 10038,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38050",
+      "region": "진주시",
+      "province": "경남",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 10038,
+      "isDemoScenario": false
+    },
+    {
+      "code": "38060",
+      "region": "거창군",
+      "province": "경남",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 10038,
+      "isDemoScenario": false
+    },
+    {
+      "code": "39010",
+      "region": "제주시",
+      "province": "제주",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 12,
+      "isDemoScenario": false
+    },
+    {
+      "code": "39020",
+      "region": "서귀포시",
+      "province": "제주",
+      "crop": "쌀",
+      "group": "곡물",
+      "baselineHa": 12,
+      "isDemoScenario": false
+    }
+  ]
+}

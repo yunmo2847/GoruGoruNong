@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"curl -s -o /dev/null -w \\\"vite:%{http_code}\\\\n\\\" http://localhost:5173/ 2>&1; curl -s -o /dev/null -w \\\"api:%{http_code}\\\\n\\\" http://localhost:5174/api/health 2>&1\",\"description\":\"Check de...",
+  "error": "Exit code 7\nvite:200\r\napi:000",
+  "timestamp": "2026-07-18T19:02:26.097Z",
+  "retry_count": 1
+}

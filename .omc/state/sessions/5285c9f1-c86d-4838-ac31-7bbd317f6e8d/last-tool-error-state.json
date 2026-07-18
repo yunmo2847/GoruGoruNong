@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"cd \\\"C:\\\\Users\\\\pokey\\\\OneDrive\\\\바탕 화면\\\\에리카\\\" && npx --yes playwright --version 2>&1 | head -5; echo \\\"---\\\"; where chrome 2>&1; where msedge 2>&1\",\"timeout\":60000,\"description\":\"Check for...",
+  "error": "Exit code 1\nVersion 1.61.1\n---\n����: ������ ���Ͽ� �ش�Ǵ� ������ ã�� ���߽��ϴ�.\r\n����: ������ ���Ͽ� �ش�Ǵ� ������ ã�� ���߽��ϴ�.",
+  "timestamp": "2026-07-18T12:24:07.693Z",
+  "retry_count": 1
+}
